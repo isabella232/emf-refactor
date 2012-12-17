@@ -13,10 +13,14 @@
 		<p>
 	<h2>Releases</h2>
 		
-<h3>Version 0.6.0</h3>
+<h3>Version 0.7.0</h3>
 <ul class="midlist">
-    <li><a href="downloads/refactor-0.6.0.20111019171158.jar">refactor-0.6.0.20111019171158.jar</a> (released 19. Okt 2011 17:12)</li>
+    <li><a href="downloads/refactor-0.7.0.20121217142207.jar">refactor-0.7.0.20121217142207.jar</a> (released Dez 17, 2012 14:22)</li>
 </ul>
+		<h3>Version 0.6.0</h3>
+		<ul class="midlist">
+		    <li><a href="downloads/refactor-0.6.0.20111019171158.jar">refactor-0.6.0.20111019171158.jar</a> (released Oct 19, 2011 17:12)</li>
+		</ul>
 		<h3>Version 0.5.0</h3>
 		<ul class="midlist">
     		<li><a href="downloads/refactor-0.5.0.20110111155417.jar">refactor-0.5.0.20110111155417.jar</a> (released Jan 11, 2011 15:54)</li>
@@ -94,4 +98,3 @@ EOHTML;
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
-

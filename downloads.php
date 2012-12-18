@@ -15,7 +15,8 @@
 		
 <h3>Version 0.7.0</h3>
 <ul class="midlist">
-    <li><a href="downloads/refactor-0.7.0.20121217203940.jar">refactor-0.7.0.20121217203940.jar</a> (released Dez 17, 2012 21:09)</li>
+ 	<li><a href="downloads/refactor-0.7.0.20121217203940.jar">refactor-0.7.0.20121217203940.jar</a> (released Dez 17, 2012 21:09)</li>
+    <li><a href="downloads/refactor-extensions-0.7.0.20121218154459.jar">refactor-extensions-0.7.0.20121218154459.jar</a> (released Dez 18, 2012 15:47)</li>
 </ul>
 		<h3>Version 0.6.0</h3>
 		<ul class="midlist">

@@ -11,13 +11,28 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>		
 		<p>
-		<h2>How to's</h2>
+		<h2>How to's: Application</h2>
 		<ul class="midlist">
-			<li><a href="application.php">How to apply EMF model refactorings</a></li>
-			<li><a href="generation.php">How to generate new EMF model refactorings using Java code</a></li>
-			<li><a href="henshin.php">How to generate new EMF model refactorings using Henshin transformations</a></li>
+			<li><a href="metricscalculation.php">How to calculate EMF model metrics</a></li>
+			<li><a href="smelldetection.php">How to detect EMF model smells</a></li>
+			<li><a href="refactoringapplication.php">How to apply EMF model refactorings</a></li>
 		</ul>
-		(PDF versions can be found in the <a href="downloads.php">downloads</a> section.) 
+		(PDF versions can be found in the <a href="downloads.php">downloads</a> section. Videos are coming soon...) 
+		</p>
+		<p>
+		<h2>How to's: Specification</h2>
+		<ul class="midlist">
+			<li><a href="metricsjava.php">How to generate new EMF model metrics using Java code</a></li>
+			<li><a href="metricsmetrics.php">How to generate new EMF model metrics using existing metrics</a></li>
+			<li><a href="metricsocl.php">How to generate new EMF model metrics using OCL expressions</a></li>
+			<li><a href="metricshenshin.php">How to generate new EMF model metrics using Henshin pattern rules</a></li>
+			<li><a href="smellsjava.php">How to generate new EMF model smells using Java code</a></li>
+			<li><a href="smellsmetrics.php">How to generate new EMF model smells using existing metrics</a></li>
+			<li><a href="smellshenshin.php">How to generate new EMF model smells using Henshin pattern rules</a></li>
+			<li><a href="refactoringsjava.php">How to generate new EMF model refactorings using Java code</a></li>
+			<li><a href="refactoringshenshin.php">How to generate new EMF model refactorings using Henshin transformations</a></li>
+		</ul>
+		(PDF versions can be found in the <a href="downloads.php">downloads</a> section. Videos are coming soon...) 
 		</p>
 		<p>
 		<h2>Slides from Tutorial at <a href="http://www2.imm.dtu.dk/conferences/ECMFA-2012/" target="_blank">ECMFA 2012</a></h2>

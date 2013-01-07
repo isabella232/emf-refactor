@@ -18,9 +18,22 @@
 	<ul>
 	<b>2012</b>
 	<li>Thorsten Arendt, Gabriele Taentzer: 
+	<a href="http://link.springer.com/article/10.1007%2Fs10515-012-0114-7" target="_blank"><i>A tool environment for quality assurance based on the Eclipse Modeling Framework</i></a>.
+	Article in Journal <a href="http://link.springer.com/journal/10515" target="_blank">Automated Software Engineering</a>, ISSN: 0928-8910 (Print) 1573-7535 (Online),
+	Springer, New York.
+	</li>
+	<li>Thorsten Arendt, Gabriele Taentzer: 
+	<a href="http://www.sigs-datacom.de/fileadmin/user_upload/zeitschriften/os/2012/06/arendt_taentzer_OS_06_12_lo66.pdf" target="_blank"><i>Besser modellieren: Qualit&auml;tssicherung von UML-Modellen</i></a>.
+	Article in magazine <a href="http://www.sigs-datacom.de/fachzeitschriften/objektspektrum.html" target="_blank">Objektspektrum</a>, 06 2012, SIGS DATACOM.
+	</li>
+	<li>Thorsten Arendt, Gabriele Taentzer: 
 	<a href="downloads/AT2012.pdf" target="_blank"><i>Integration of Smells and Refactorings within the Eclipse Modeling Framework</i></a>.
 	Proceedings of <a href="http://refactoring.info/WRT12/" target="_blank">Fifth Workshop on Refactoring Tools (WRT 2012)</a>
 	co-located with ICSE 2012, June 1 2012 in Rapperswil, Switzerland. To appear in ACM Digital Library 2012.
+	</li>
+	<li>Thorsten Arendt, Gabriele Taentzer: 
+	<a href="http://www.uni-marburg.de/fb12/forschung/berichte/berichteinformtk" target="_blank"><i>Composite Refactorings for EMF Models</i></a>.
+	Technical report, Philipps-Universit&auml;t Marburg, FB 12 - Mathematik und Informatik, Marburg, Gemany.
 	</li>
 	<b>2011</b>
 	<li>Thorsten Arendt, Sieglinde Kranz, Florian Mantz, Nikolaus Regnat, Gabriele Taentzer: 
@@ -32,6 +45,16 @@
 	<b>2010</b>
 	<li>Thorsten Arendt, Florian Mantz, Gabriele Taentzer: 
 	<a href="downloads/AMT2010.pdf" target="_blank"><i>EMF Refactor: Specification and Application of Model Refactorings within the Eclipse Modeling Framework</i></a>.
+	Proceedings of <a href="http://rmod.lille.inria.fr/benevol/" target="_blank">9th BElgian-NEtherlands software eVOLution seminar (BENEVOL 2010)</a>,
+	December 17 2010 in Lille, France.
+	</li>
+	<li>Thorsten Arendt, Matthias Burhenne, Gabriele Taentzer: 
+	<a href="downloads/ABT2010.pdf" target="_blank"><i>Defining and Checking Model Smells: A Quality Assurance Task for Models based on the Eclipse Modeling Framework</i></a>.
+	Proceedings of <a href="http://rmod.lille.inria.fr/benevol/" target="_blank">9th BElgian-NEtherlands software eVOLution seminar (BENEVOL 2010)</a>,
+	December 17 2010 in Lille, France.
+	</li>
+	<li>Thorsten Arendt, Pawel Stepien, Gabriele Taentzer: 
+	<a href="downloads/AST2010.pdf" target="_blank"><i>EMF Metrics: Specification and Calculation of Model Metrics within the Eclipse Modeling Framework</i></a>.
 	Proceedings of <a href="http://rmod.lille.inria.fr/benevol/" target="_blank">9th BElgian-NEtherlands software eVOLution seminar (BENEVOL 2010)</a>,
 	December 17 2010 in Lille, France.
 	</li>

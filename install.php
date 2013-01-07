@@ -38,11 +38,22 @@
 		<p>
 		<i>How to install EMF Refactor:</i>
 		</p>
+		Please use one of our update sites below and install EMF Refactor using the update manager in Eclipse. 
+		Alternatively, there are also downloads available.
+		
+		<h3>Installation using the update sites</h3>
+		This project maintains a p2 repository of binary artifacts. Copy and paste one of the following links into 
+		the "Install New Software" dialog to install this project's software.
+		<ul class="midlist">
+		 	<li>http://download.eclipse.org/emf-refactor/updatesite-basic</li>
+		    <li>http://download.eclipse.org/emf-refactor/updatesite-extensions</li>
+		    <li>http://download.eclipse.org/emf-refactor/updatesite-examples</li>
+		</ul>
 
+		<h3>Installation using the download site</h3>
 		<ol>
-			<li>Install <a href="http://www.eclipse.org/modeling/emft/henshin/">EMF Henshin</a> if you want to use it together with EMF Refactor.</li>
-			<li><a href="downloads.php">Download</a> the EMF Refactor JAR file.</li>
-			<li>Install the software as usual: <b>Help -> Install New Software... -> Add.. -> Archive -> refactor-X.X.X.X</b></li>
+			<li><a href="downloads.php">Download</a> the EMF Refactor JAR file(s).</li>
+			<li>Install the software as usual: <b>Help -> Install New Software... -> Add.. -> Archive -> refactor-[X-]X.X.X.X</b></li>
 		</ol>
 
 

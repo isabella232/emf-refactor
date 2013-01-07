@@ -14,6 +14,21 @@
 		
 
 	<br>
+	<h2>Journal and Magazine Articles</h2>
+	<ul>
+	<b>2012</b>
+	<li>Thorsten Arendt, Gabriele Taentzer: 
+	<a href="http://link.springer.com/article/10.1007%2Fs10515-012-0114-7" target="_blank"><i>A tool environment for quality assurance based on the Eclipse Modeling Framework</i></a>.
+	Article in Journal <a href="http://link.springer.com/journal/10515" target="_blank">Automated Software Engineering</a>, ISSN: 0928-8910 (Print) 1573-7535 (Online),
+	Springer, New York.
+	</li>
+	<li>Thorsten Arendt, Gabriele Taentzer: 
+	<a href="http://www.sigs-datacom.de/fileadmin/user_upload/zeitschriften/os/2012/06/arendt_taentzer_OS_06_12_lo66.pdf" target="_blank"><i>Besser modellieren: Qualit&auml;tssicherung von UML-Modellen</i></a>.
+	Article in magazine <a href="http://www.sigs-datacom.de/fachzeitschriften/objektspektrum.html" target="_blank">Objektspektrum</a>, 06 2012, SIGS DATACOM.
+	</li>
+	</ul>
+	
+	<br>
 	<h2>Conference and Workshop Proceedings</h2>
 	<ul>
 	<b>2012</b>
@@ -65,6 +80,16 @@
 	co-located with MoDELS 2009, October 4 2009 in Denver, USA.
 	</li>
 	</ul>
+	
+	<br>
+	<h2>Technical Reports</h2>
+	<ul>
+	<b>2012</b>
+	<li>Thorsten Arendt, Gabriele Taentzer: 
+	<a href="http://www.uni-marburg.de/fb12/forschung/berichte/berichteinformtk" target="_blank"><i>Composite Refactorings for EMF Models</i></a>.
+	Technical report, Philipps-Universit&auml;t Marburg, FB 12 - Mathematik und Informatik, Marburg, Gemany.
+	</li>
+	</ul>	
 	
 	</div>
 	

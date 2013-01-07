@@ -38,9 +38,12 @@
 	
 	<!-- h1>EMF Refactor</h1 -->
 	<p>
-	<big><b>EMF Refactor</b></big> is an Eclipse open source tool environment conveniently supporting a <b>structured model quality assurance process</b>. 
+	<b>EMF Refactor</b> is an Eclipse open source tool environment conveniently supporting a <b>structured model quality assurance process</b>. 
 	In particular, EMF Refactor supports metrics reporting, smell detection, and refactoring for models being based on the Eclipse Modeling Framework, 
-	a widely used open source technology in model-based software development. The tool environment mainly consists of two kinds of modules: 
+	a widely used open source technology in model-based software development. 
+	</p>
+	<p>
+	The tool environment mainly consists of two kinds of modules: 
 	For calculating model metrics, detecting smells, and executing refactorings there is an <b>application module</b> each. 
 	Similarly there are three <b>specification modules</b> for generating metrics, smell, and refactoring plugins containing Java code that can be used by the corresponding application module.
 	</p>
@@ -55,7 +58,7 @@
 	</ul>
 	</p>
 	
-	<big>Refactoring Application Module</big>
+	<u><b>Refactoring Application Module<</b>/u>
 		
 	<p>
 	EMF Refactor uses the Eclipse <a href="http://www.eclipse.org/articles/Article-LTK/ltk.html" target="_blank">Language Toolkit</a> 
@@ -68,14 +71,14 @@
 	Here, EMF Refactor supports undo and redo functionality, of course.
 	</p>
 	
-	<big>Structured Refactoring Suite</big>
+	<u><b>Structured Refactoring Suite</b></u>
 	
 	<p>
 	EMF Refactor currently supports 22 refactorings for Ecore models and 30 refactorings for UML2EMF models.
 	A list of implemented refactorings can be found in the <a href="refactorings.php">refactorings</a> section.
 	</p>
 	
-	<big>Refactoring Generation Module</big>
+	<u><b>Refactoring Generation Module</b></u>
 		
 	<p>
 	Since EMF Refactor uses the LTK technology mentioned above, a concrete refactoring specification requires up 

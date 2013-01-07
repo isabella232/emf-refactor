@@ -55,7 +55,7 @@
 	</ul>
 	</p>
 	
-	<h3>Refactoring Application Module</h3>
+	Refactoring Application Module
 		
 	<p>
 	EMF Refactor uses the Eclipse <a href="http://www.eclipse.org/articles/Article-LTK/ltk.html" target="_blank">Language Toolkit</a> 

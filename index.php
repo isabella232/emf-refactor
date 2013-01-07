@@ -36,13 +36,18 @@
 	<h1>$pageTitle</h1>
 	<img style="float:right" src="emfrefactor.png" alt="" style="border-width:0px"/>
 	
+	<h1>EMF Refactor</h1>
 	<p>
-	EMF Refactor is an open source component under <a href="http://www.eclipse.org/modeling/emft/">Eclipse EMFT</a> to provide extensible tool support for generating and applying refactorings of EMF based
-models, e.g. UML EMF models.
+	EMF Refactor is an Eclipse open source tool environment conveniently supporting a atructured model quality assurance process. 
+	In particular, EMF Refactor supports metrics reporting, smell detection, and refactoring for models being based on the Eclipse Modeling Framework, 
+	a widely used open source technology in model-based software development. The tool environment mainly consists of two kinds of modules: 
+	For calculating model metrics, detecting smells, and executing refactorings there is an application module each. 
+	Similarly there are three specification modules for generating metrics, smell, and refactoring plugins containing Java code that can be used by the corresponding application module.
 	</p>
-	
 	<p>
-	EMF Refactor consists of 
+	
+	<h2>Refactoring tool</h2>
+	The refactoring tool consists of 
 	<ul>
 		<li>a <strong>Refactoring Application Module</strong> for applying EMF model refactorings in a uniform and user-friendly way,
 		<li>a <strong>Structured Refactoring Suite</strong> of predefined EMF model refactorings supporting several EMF-based languages, and

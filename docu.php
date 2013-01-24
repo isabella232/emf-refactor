@@ -35,6 +35,12 @@
 		(PDF versions can be found in the <a href="downloads.php">downloads</a> section. Videos are coming soon...) 
 		</p>
 		<p>
+		<h2>Slides from talk at <a href="http://www.eclipsecon.org/europe2012/" target="_blank">EclipseCon Europe 2012</a></h2>
+		<ul class="midlist">
+			<li><a href="ImproveQualityEMFModels.pptx" target="_blank"><i>Improve the quality of your EMF-based models!</i></a></li>
+		</ul>
+		</p>
+		<p>
 		<h2>Slides from Tutorial at <a href="http://www2.imm.dtu.dk/conferences/ECMFA-2012/" target="_blank">ECMFA 2012</a></h2>
 		<ul class="midlist">
 			<li><a href="downloads/ImprovingTheQualityOfEMFModels.pdf" target="_blank"><i>Improving the Quality of EMF models using metrics, smells, and refactorings</i></a></li>

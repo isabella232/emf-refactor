@@ -36,14 +36,17 @@
 		</p>
 		<p>
 		<h2>Slides from talk at <a href="http://www.eclipsecon.org/europe2012/" target="_blank">EclipseCon Europe 2012</a></h2>
+<<<<<<< Upstream, based on branch 'master' of ssh://tarendt@git.eclipse.org/gitroot/www.eclipse.org/emf-refactor.git
 		<ul class="midlist">
 			<li><a href="ImproveQualityEMFModels.pptx" target="_blank"><i>Improve the quality of your EMF-based models!</i></a></li>
 		</ul>
 		</p>
 		<p>
 		<h2>Slides from Tutorial at <a href="http://www2.imm.dtu.dk/conferences/ECMFA-2012/" target="_blank">ECMFA 2012</a></h2>
+=======
+>>>>>>> f51e3cc slides ECE2012 changed
 		<ul class="midlist">
-			<li><a href="downloads/ImprovingTheQualityOfEMFModels.pdf" target="_blank"><i>Improving the Quality of EMF models using metrics, smells, and refactorings</i></a></li>
+			<li><a href="downloads/ImproveQualityEMFModels.pptx" target="_blank"><i>Improve the quality of your EMF-based models!</i></a></li>
 		</ul>
 		</p>
 		<p>

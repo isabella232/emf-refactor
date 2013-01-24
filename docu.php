@@ -37,7 +37,7 @@
 		<p>
 		<h2>Slides from talk at <a href="http://www.eclipsecon.org/europe2012/" target="_blank">EclipseCon Europe 2012</a></h2>
 		<ul class="midlist">
-			<li><a href="downloads/ImproveQualityEMFModels.pptx" target="_blank"><i>Improve the quality of your EMF-based models!</i></a></li>
+			<li><a href="downloads/ImproveQualityEMFModels.pptx" target="_blank"><i>Improve the quality of your EMF-based models! (16MB)</i></a></li>
 		</ul>
 		</p>
 		<p>

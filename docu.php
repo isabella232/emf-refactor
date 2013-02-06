@@ -35,9 +35,10 @@
 		(PDF versions can be found in the <a href="downloads.php">downloads</a> section. Videos are coming soon...) 
 		</p>
 		<p>
-		<h2>Slides from talk at <a href="http://www.eclipsecon.org/europe2012/" target="_blank">EclipseCon Europe 2012</a></h2>
+		<h2>Talk at <a href="http://www.eclipsecon.org/europe2012/" target="_blank">EclipseCon Europe 2012</a></h2>
 		<ul class="midlist">
-			<li><a href="downloads/ImproveQualityEMFModels.pptx" target="_blank"><i>Improve the quality of your EMF-based models! (16MB)</i></a></li>
+			<li>Slides: <a href="downloads/ImproveQualityEMFModels.pptx" target="_blank"><i>Improve the quality of your EMF-based models!</i> (MS PowerPoint, 16MB)</a></li>
+			<li>Video: <a href="http://www.youtube.com/watch?v=-SQY4lpbUeI" target="_blank"><i>Improve the quality of your EMF-based models!</i> (YouTube video, bad quality)</a></li>			
 		</ul>
 		</p>
 		<p>

@@ -80,6 +80,14 @@
 		into the plugins directory of your RSA installation and restart IBM RSA. Download <b>ExampleProjectRSA755.zip</b> from above and import the example
 		project <b>VehicleRentalCompany</b> into your workspace
 		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).
+		<br/><br/>
+		<h3>DSL Physical Architecture Models (PAM)</h3>
+		<ul class="midlist">
+			<li><a href="downloads/pam.zip" target="_blank">Plugins bundle for PAM models and QA techniques</a></li>
+		</ul>
+		Download <b>pam.zip</b> from above and import the example projects into your workspace
+		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).
+		Then, start the runtime environment of eclipse, create your PAM model, and optimize it!
 		</p>	
 	</div>
 	

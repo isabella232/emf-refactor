@@ -37,8 +37,9 @@
 		<h2>Specials</h2>
 		This download area is dedicated to the article <b><i>Besser modellieren - Qualit&auml;tssicherung von UML-Modellen</i></b> 
 		submitted to the <a href="http://www.sigs-datacom.de/fachzeitschriften/objektspektrum.html" target="_blank">OBJEKTspektrum</a> magazine on June 20, 2012, 
-		as well as to the tutorial at <a href="http://www2.imm.dtu.dk/conferences/ECMFA-2012/" target="_blank">ECMFA 2012</a> on July 2, 2012 (find tutorial slides in
-		the <a href="docu.php">documentation</a> section).
+		to the tutorial at <a href="http://www2.imm.dtu.dk/conferences/ECMFA-2012/" target="_blank">ECMFA 2012</a> on July 2, 2012 (find tutorial slides in
+		the <a href="docu.php">documentation</a> section) as well as to the application paper <i>Comparing Model-Driven and Custom Development Approaches for Optimizing the
+		Energy Consumption of ITC-Systems in the Cloud</i> submitted to <a href="http://www.modelsconference.org/" target="_blank">MoDELS 2013</a>.
 		<br/><br/>
 		<h3>Eclipse Juno</h3>
 		<ul class="midlist">

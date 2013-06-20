@@ -45,9 +45,9 @@
 		This project maintains a p2 repository of binary artifacts. Copy and paste one of the following links into 
 		the "Install New Software" dialog to install this project's software.
 		<ul class="midlist">
-		 	<li>http://download.eclipse.org/emf-refactor/updatesite-basic</li>
-		    <li>http://download.eclipse.org/emf-refactor/updatesite-extensions</li>
-		    <li>http://download.eclipse.org/emf-refactor/updatesite-examples</li>
+		 	<li><a href="http://download.eclipse.org/emf-refactor/updatesite-basic" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-basic</a></li>
+		    <li><a href="http://download.eclipse.org/emf-refactor/updatesite-extensions" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-extensions</a></li>
+		    <li><a href="http://download.eclipse.org/emf-refactor/updatesite-examples" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-examples</a></li>
 		</ul>
 
 		<h3>Installation using the download site</h3>

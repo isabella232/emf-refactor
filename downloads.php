@@ -38,8 +38,11 @@
 		This download area is dedicated to the article <b><i>Besser modellieren - Qualit&auml;tssicherung von UML-Modellen</i></b> 
 		submitted to the <a href="http://www.sigs-datacom.de/fachzeitschriften/objektspektrum.html" target="_blank">OBJEKTspektrum</a> magazine on June 20, 2012, 
 		to the tutorial at <a href="http://www2.imm.dtu.dk/conferences/ECMFA-2012/" target="_blank">ECMFA 2012</a> on July 2, 2012 (find tutorial slides in
-		the <a href="docu.php">documentation</a> section) as well as to the application paper <i>Comparing Model-Driven and Custom Development Approaches for Optimizing the
-		Energy Consumption of ITC-Systems in the Cloud</i> submitted to <a href="http://www.modelsconference.org/" target="_blank">MoDELS 2013</a>.
+		the <a href="docu.php">documentation</a> section), to the application paper <i>Comparing Model-Driven and Custom Development Approaches for Optimizing the
+		Energy Consumption of ITC-Systems in the Cloud</i> submitted to <a href="http://www.modelsconference.org/" target="_blank">MoDELS 2013</a>, 
+		as well as to the application paper <i>Quality Assurance of Textual Models within Eclipse using OCL and Model Transformations</i> submitted to 
+		the <a href="http://ocl2013.inf.mit.bme.hu/" target="_blank">13th International Workshop on OCL, Model Constraint and Query Languages
+		(OCL 2013)</a> at <a href="http://www.modelsconference.org/" target="_blank">MoDELS 2013</a>.
 		<br/><br/>
 		<h3>Eclipse Juno</h3>
 		<ul class="midlist">
@@ -88,6 +91,26 @@
 		Download <b>pam.zip</b> from above and import the example projects into your workspace
 		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).
 		Then, start the runtime environment of eclipse, create your PAM model, and optimize it!
+		<br/><br/>
+		<h3>DSL Simple Web Modeling Language (SWM)</h3>
+		<ul class="midlist">
+			<li><a href="downloads/refactor.zip" target="_blank">EMF Refactor infrastructure containing support for Xtext</a></li>
+			<li><a href="downloads/swm.zip" target="_blank">Plugins bundle for SWM models and QA techniques</a></li>
+			<li><a href="downloads/swm_modelproject.zip" target="_blank">Example project containing SWM models</a></li>
+		</ul>
+		Please install the Juno Eclipse Modeling Tools from <a href="http://www.eclipse.org/downloads/packages/release/juno/sr2" target="_blank">
+		http://www.eclipse.org/downloads/packages/release/juno/sr2</a></li>. Start Eclipse and update the system (<i>Help > Check for Updates</i>).
+		Install Xtext (<i>Help > Install New Software... > Work with: Juno > Modeling
+		> Xtext SDK > next > ...</i>), the reporting tool BIRT (<i>Help > Install New Software... > 
+		Work with: Juno > Bussiness... > BIRT Framework > next > ...</i>), as well as the EMF model
+		transformation language Henshin (<i>Help > Install New Software... > 
+		Work with: http://download.eclipse.org/modeling/emft/henshin/updates/release > next > ...</i>). 
+		Download <b>refactor.zip</b> from above, unzip it into the directory of your Eclipse installation and restart Eclipse. 
+		Download <b>swm.zip</b> from above, unzip it into the directory of your Eclipse installation and restart Eclipse. 
+		Download <b>swm_modelproject.zip</b> from above and import the example
+		project <b>org.eclipse.emf.refactor.examples.swm.models</b> into your workspace 
+		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).
+		Then, restart eclipse and analyze resp. refactor the SWM instance model!
 		</p>	
 	</div>
 	

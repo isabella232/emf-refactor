@@ -13,6 +13,12 @@
 		<p>
 	<h2>Releases</h2>
 		
+<h3>Version 0.8.0</h3>
+<ul class="midlist">
+ 	<li><a href="downloads/refactor-0.8.0.20130908164653.jar">refactor-0.8.0.20130908164653.jar</a> (released Sep 08, 2013 16:47)</li>
+    <li><a href="downloads/refactor-extensions-0.8.0.20130908165053.jar">refactor-extensions-0.8.0.20130908165053.jar</a> (released Sep 08, 2013 16:55)</li>
+</ul>
+
 <h3>Version 0.7.0</h3>
 <ul class="midlist">
  	<li><a href="downloads/refactor-0.7.0.20121217203940.jar">refactor-0.7.0.20121217203940.jar</a> (released Dez 17, 2012 21:09)</li>

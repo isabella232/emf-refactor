@@ -27,7 +27,7 @@
 		<ul class="midlist">
 		 	<li>Install the basic tools (<i>Help > Install New Software... > Work with: 
 		 	<a href="http://download.eclipse.org/emf-refactor/updatesite-basic" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-basic</a> > next > ...</i>).</li>
-		    <li>Install the extending tools (<i>Help > Install New Software... > Work with: 
+		    <li>Install the extending tools except for the Xtext extension (<i>Help > Install New Software... > Work with: 
 		    <a href="http://download.eclipse.org/emf-refactor/updatesite-extensions" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-extensions</a> > next > ...</i>).</li>
 		    <li>Install the UML examples (<i>Help > Install New Software... > Work with: 
 		    <a href="http://download.eclipse.org/emf-refactor/updatesite-examples" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-examples</a> > next > ...</i>).</li>

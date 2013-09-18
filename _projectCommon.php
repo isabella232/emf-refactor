@@ -16,6 +16,7 @@
 	$Nav->addCustomNav("Installation", 		"install.php", 		"_self", 2);
 	$Nav->addCustomNav("Documentation", 		"docu.php", 		"_self", 2);
 	$Nav->addCustomNav("Publications", 				"publications.php", 			"_self", 2);
+	$Nav->addCustomNav("MoDELS 2013", 				"models2013.php", 			"_self", 2);
 	# $Nav->addCustomNav("FAQ", 				"faq.php", 			"_self", 2);
 
 

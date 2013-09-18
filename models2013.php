@@ -15,8 +15,8 @@
 	<p>
 	<h2>Installation Guide</h2>
 	<ol class="midlist">
-	 	<li>Please install the <b><i>Juno Eclipse Modeling Tools</i></b> from <a href="http://www.eclipse.org/downloads/packages/release/juno/sr2" target="_blank">
-		http://www.eclipse.org/downloads/packages/release/juno/sr2</a></li>. Start Eclipse and update the system (<i>Help > Check for Updates</i>).</li>
+	 	<li>Please download the <b><i>Juno Eclipse Modeling Tools</i></b> from <a href="http://www.eclipse.org/downloads/packages/release/juno/sr2" target="_blank">
+		http://www.eclipse.org/downloads/packages/release/juno/sr2</a></li>. Unzip and start Eclipse and update the system (<i>Help > Check for Updates</i>).</li>
 	    <li>Restart Eclipse and install the UML modeling environment <b><i>Papyrus</i></b> (<i>Help > Install New Software... > Work with: Juno > Modeling
 		> Papyrus SDK Binaries > next > ...</i>).</li>
 		<li>Restart Eclipse and install the reporting tool <b><i>BIRT</i></b> 
@@ -37,6 +37,9 @@
 		<li>Restart Eclipse and install the EMF model versioning tool <b><i>SiLift</i></b> (<i>Help > Install New Software... > 
 		Work with: foo > next > ...</i>).</li>
 	</ol>
+	<p>
+	<h2>Projects</h2>
+	Coming soon...
 	</p>	
 	</div>
 	

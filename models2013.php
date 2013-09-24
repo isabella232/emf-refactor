@@ -20,7 +20,7 @@
 	    <li>Restart Eclipse and install the UML modeling environment <b><i>Papyrus</i></b> (<i>Help > Install New Software... > Work with: Juno > Modeling
 		> Papyrus SDK Binaries > next > ...</i>).</li>
 		<li>Restart Eclipse and install the reporting tool <b><i>BIRT</i></b> 
-		(<i>Help > Install New Software... > Work with: Indigo > Business... > BIRT Framework > next > ...</i>).</li>
+		(<i>Help > Install New Software... > Work with: Juno > Business... > BIRT Framework > next > ...</i>).</li>
 		<li>Restart Eclipse and install the EMF model transformation language <b><i>Henshin</i></b> (<i>Help > Install New Software... > 
 		Work with: <a href="http://download.eclipse.org/modeling/emft/henshin/updates/release" target="_blank">http://download.eclipse.org/modeling/emft/henshin/updates/release</a> > next > ...</i>).</li>
 		<li>Restart Eclipse and install the EMF model quality assurance tool set <b><i>EMF Refactor</i></b>:

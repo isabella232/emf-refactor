@@ -41,7 +41,7 @@
 	<h2>Projects</h2>
 	<ul class="midlist">
 		<li><a href="downloads/uml_example_project.zip" target="_blank">Example project for UML modeling environment Papyrus</a></li>
-		<li><a href="downloads/simplewebmodel_example_projects.zip" target="_blank"></a>Example projects for DSL Simple Web Model</li>
+		<li><a href="downloads/simplewebmodel_example_projects.zip" target="_blank"></a>Example projects for DSL Simple Web Model</a></li>
 	</ul>
 	<ol class="midlist">
 	 	<li>For the first part of the tutorial please download <b>uml_example_project.zip</b> from above and import the contained example

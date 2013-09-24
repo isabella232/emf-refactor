@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature url="features/simplewebmodel.features_1.0.0.20130918151149.jar" id="simplewebmodel.features" version="1.0.0.20130918151149">
+    		<category name="MoDELS 2013 Tutorial - SimpleWebModel"/>
+   		</feature>
+	<feature url="features/simplewebmodel.mqa.features_1.0.0.20130918151149.jar" id="simplewebmodel.mqa.features" version="1.0.0.20130918151149">
+	    		<category name="MoDELS 2013 Tutorial - SimpleWebModel"/>
+	   		</feature>
+	<category-def name="MoDELS 2013 Tutorial - SimpleWebModel" label="MoDELS 2013 Tutorial - SimpleWebModel"/>
+</site>

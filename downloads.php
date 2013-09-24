@@ -15,8 +15,9 @@
 		
 <h3>Version 0.8.0</h3>
 <ul class="midlist">
- 	<li><a href="downloads/refactor-0.8.0.20130908164653.jar">refactor-0.8.0.20130908164653.jar</a> (released Sep 08, 2013 16:47)</li>
-    <li><a href="downloads/refactor-extensions-0.8.0.20130908165053.jar">refactor-extensions-0.8.0.20130908165053.jar</a> (released Sep 08, 2013 16:55)</li>
+ 	<li><a href="downloads/refactor-0.8.0.20130924135641.jar">refactor-0.8.0.20130924135641.jar</a> (released Sep 24, 2013 13:57)</li>
+    <li><a href="downloads/refactor-extensions-0.8.0.20130924140016.jar">refactor-extensions-0.8.0.20130924140016.jar</a> (released Sep 24, 2013 14:02)</li>
+    <li><a href="downloads/refactor-examples-0.8.0.20130924140401.jar">refactor-examples-0.8.0.20130924140401.jar</a> (released Sep 24, 2013 14:05)</li>
 </ul>
 
 <h3>Version 0.7.0</h3>

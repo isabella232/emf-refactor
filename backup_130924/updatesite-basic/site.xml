@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature url="features/org.eclipse.emf.refactor.basic.feature_0.8.0.20130917160841.jar" id="org.eclipse.emf.refactor.basic.feature" version="0.8.0.20130917160841">
+    	<category name="EMF Refactor (Incubation)"/>
+   	</feature>
+   	<category-def name="EMF Refactor (Incubation)" label="EMF Refactor (Incubation)"/>
+</site>

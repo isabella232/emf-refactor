@@ -35,7 +35,7 @@
 		    <a href="http://download.eclipse.org/emf-refactor/updatesite-models2013" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-models2013</a> > next > ...</i>).</li>
 		</ul></li>
 		<li>Restart Eclipse and install the EMF model versioning tool <b><i>SiLift</i></b> (<i>Help > Install New Software... > 
-		Work with: foo > next > ...</i>).</li>
+		Work with: <a href="http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013" target="_blank">http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013</a> > next > ...</i>).</li>
 	</ol>
 	<p>
 	<h2>Projects</h2>

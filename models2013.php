@@ -48,13 +48,14 @@
 	<h2>Projects</h2>
 	<ul class="midlist">
 		<li><a href="downloads/uml_example_project.zip" target="_blank">Example project for UML modeling environment Papyrus</a></li>
-		<li><a href="downloads/simplewebmodel_example_projects.zip" target="_blank">Example projects for DSL Simple Web Model</a></li>
+		<li><a href="downloads/simplewebmodel_example_projects.zip" target="_blank">Example QA projects for DSL Simple Web Model</a></li>
+		<li><a href="downloads/silift-swm-adaptions.zip" target="_blank">Example SiLift projects for DSL Simple Web Model</a></li>
 	</ul>
 	<ol class="midlist">
 	 	<li>For the first part of the tutorial please download <b>uml_example_project.zip</b> from above and import the contained example
 		project into your workspace 
 		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).</li>
-		<li>For the second part of the tutorial please download <b>simplewebmodel_example_projects.zip</b> from above and import the contained example
+		<li>For the second part of the tutorial please download <b>simplewebmodel_example_projects.zip</b> and <b>silift-swm-adaptions.zip</b> from above and import the contained example
 		projects into your workspace 
 		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).</li>
 	</ol>		

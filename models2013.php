@@ -34,8 +34,15 @@
 		    <li>Install the example DSL Simple Web Modeling Language (SWM) (<i>Help > Install New Software... > Work with: 
 		    <a href="http://download.eclipse.org/emf-refactor/updatesite-models2013" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-models2013</a> > next > ...</i>).</li>
 		</ul></li>
-		<li>Restart Eclipse and install the EMF model versioning tool <b><i>SiLift</i></b> (<i>Help > Install New Software... > 
-		Work with: <a href="http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013" target="_blank">http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013</a> > next > ...</i>).</li>
+		<li>Restart Eclipse and install the EMF model versioning tool SiLift:
+		<ul class="midlist">
+			<li>Install the SiLift core components and UI (Help > Install New Software... > Work with: 
+			<a href="http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013" target="_blank">http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013</a> > SiLift - Core Components > next > ...).</li>
+			<li>Install the SiLift UML2/Papyrus adaption (Help > Install New Software... > Work with: 
+			<a href="http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013" target="_blank">http://pi.informatik.uni-siegen.de/Projekte/SiLift/updatesite-models2013</a> > SiLift - Language Adaptions 
+			> SiLift adaptions for UML2 > next > ...). </li>
+		</ul></li>		
+		<li>Restart Eclipse.</li>
 	</ol>
 	<p>
 	<h2>Projects</h2>

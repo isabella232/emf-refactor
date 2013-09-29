@@ -60,7 +60,11 @@
 		projects into your workspace 
 		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).</li>
 	</ol>		
-	</p>	
+	</p>
+	<h2>Slides</h2>
+	<ul class="midlist">
+		<li><a href="downloads/tutorial-models2013.zip" target="_blank">Tutorial Slides</a></li>
+	</ul>	
 	</div>
 	
 	<div id="rightcolumn">

@@ -44,7 +44,8 @@
 	
 	<h2>Scenarios</h2>	
 	For the evaluation of the approach (respectively the implemented prototype) the following scenarios
-	are performed on the project above:
+	are performed on the project above:	
+	<br/><br/>
 	<h3>VehicleRentalCompany</h3>	
 	<b><i>Model -> Code</i></b>
 	<ol class="midlist">
@@ -100,8 +101,7 @@
 	can be found here:
 	<ul class="midlist">
 		<li><a href="downloads/screenshots.zip" target="_blank">screenshots</a>.</li>
-	</ul>	
-	<br/><br/>
+	</ul>
 	For evaluating hypothesis H2 ('The dynamic mapping of model and code is fast enough.'), 
 	we measured the time needed for dynamically mapping the corresponding elements. 
 	The measurements are performed on a Mac Book Air MId 2011 machine (4 GB RAM; Intel i5-2557M 

@@ -11,9 +11,9 @@
 	<div id="midcolumn">
 	<h1>$pageTitle</h1>
 	This area is dedicated to the research paper 
-	<i>A Lightweight Approach to Synchronize Model and Code Refactorings</i> 
-	submitted to the 17th International Conference on Fundamental Approaches to Software Engineering
-	<a href="http://www.etaps.org/index.php/2014/fase" target="_blank">(FASE 2014)</a>.
+	<b><i>A Lightweight Approach to Synchronize Model and Code Refactorings</i></b>
+	submitted to the </b>17th International Conference on Fundamental Approaches to Software Engineering
+	<a href="http://www.etaps.org/index.php/2014/fase" target="_blank">(FASE 2014)</a></b>.
 	It contains various material concerning the installation and evaluation of
 	the approach respectively its prototype implementation.
 	<br/><br/>
@@ -109,7 +109,7 @@
 	<h3>VehicleRentalCompany</h3>	
 	<table border="1">
 	  <tr>
-	    <th>Refactoring</th>
+	    <th>Refact.</th>
 	    <th>Model -> Code (lazy)</th>
 	    <th>Code -> Model (lazy)</th>
 	    <th>Model -> Code (strict)</th>
@@ -168,7 +168,7 @@
 	<h3>PDFsam</h3>	
 	<table border="1">
 	  <tr>
-	    <th>Refactoring</th>
+	    <th>Refact.</th>
 	    <th>Model -> Code (lazy)</th>
 	    <th>Code -> Model (lazy)</th>
 	    <th>Model -> Code (strict)</th>

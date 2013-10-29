@@ -89,6 +89,130 @@
 	</ol>
 	<br/><br/>
 	
+	<h2>Results</h2>	
+	For evaluating hypothesis H2 (), we measured the time needed for dynamically mapping the 
+	corresponding elements. The measurements are performed on a Mac Book Air MId 2011 machine 
+	(4 GB RAM; Intel i5-2557M dual core 2.7 Ghz). The following tables show the corresponding 
+	results in microseconds.
+	<h3>VehicleRentalCompany</h3>	
+	<table border="1">
+	  <tr>
+	    <th>Refactoring</th>
+	    <th>Model -> Code (lazy)</th>
+	    <th>Code -> Model (lazy)</th>
+	    <th>Model -> Code (strict)</th>
+	    <th>Code -> Model (strict)</th>
+	  </tr>
+	  <tr>
+	    <td>1</td>
+	    <td>3961</td>
+	    <td>4245</td>
+	    <td>1076</td>
+	    <td>1698</td>
+	  </tr>
+	  <tr>
+	    <td>2</td>
+	    <td>5249</td>
+	    <td>1784</td>
+	    <td>839</td>
+	    <td>529</td>
+	  </tr>
+	  <tr>
+	    <td>3</td>
+	    <td>2658</td>
+	    <td>2084</td>
+	    <td>698</td>
+	    <td>765</td>
+	  </tr>
+	  <tr>
+	    <td>4</td>
+	    <td>2886</td>
+	    <td>2269</td>
+	    <td>1241</td>
+	    <td>1033</td>
+	  </tr>
+	  <tr>
+	    <td>5</td>
+	    <td>2721</td>
+	    <td>3311</td>
+	    <td>673</td>
+	    <td>1570</td>
+	  </tr>
+	  <tr>
+	    <td>6</td>
+	    <td>2570</td>
+	    <td>3443</td>
+	    <td>872</td>
+	    <td>1342</td>
+	  </tr>
+	  <tr>
+	    <td>7</td>
+	    <td>1657</td>
+	    <td>2600</td>
+	    <td>496</td>
+	    <td>1337</td>
+	  </tr>
+	</table>
+	<h3>PDFsam</h3>	
+	<table border="1">
+	  <tr>
+	    <th>Refactoring</th>
+	    <th>Model -> Code (lazy)</th>
+	    <th>Code -> Model (lazy)</th>
+	    <th>Model -> Code (strict)</th>
+	    <th>Code -> Model (strict)</th>
+	  </tr>
+	  <tr>
+	    <td>1</td>
+	    <td>24511</td>
+	    <td>35335</td>
+	    <td>535</td>
+	    <td>1638</td>
+	  </tr>
+	  <tr>
+	    <td>2</td>
+	    <td>31805</td>
+	    <td>29244</td>
+	    <td>1311</td>
+	    <td>546</td>
+	  </tr>
+	  <tr>
+	    <td>3</td>
+	    <td>6929</td>
+	    <td>24285</td>
+	    <td>975</td>
+	    <td>694</td>
+	  </tr>
+	  <tr>
+	    <td>4</td>
+	    <td>13943</td>
+	    <td>20509</td>
+	    <td>873</td>
+	    <td>1387</td>
+	  </tr>
+	  <tr>
+	    <td>5</td>
+	    <td>11845</td>
+	    <td>38233</td>
+	    <td>801</td>
+	    <td>1631</td>
+	  </tr>
+	  <tr>
+	    <td>6</td>
+	    <td>8584</td>
+	    <td>33281</td>
+	    <td>781</td>
+	    <td>1548</td>
+	  </tr>
+	  <tr>
+	    <td>7</td>
+	    <td>6391</td>
+	    <td>27818</td>
+	    <td>526</td>
+	    <td>2924</td>
+	  </tr>
+	</table>
+	
 	</div>
 	
 	<div id="rightcolumn">

@@ -109,7 +109,7 @@
 	<h3>VehicleRentalCompany</h3>	
 	<table border="1">
 	  <tr>
-	    <th>Refact.</th>
+	    <th>Refactoring</th>
 	    <th>Model -> Code (lazy)</th>
 	    <th>Code -> Model (lazy)</th>
 	    <th>Model -> Code (strict)</th>
@@ -168,7 +168,7 @@
 	<h3>PDFsam</h3>	
 	<table border="1">
 	  <tr>
-	    <th>Refact.</th>
+	    <th>Refactoring</th>
 	    <th>Model -> Code (lazy)</th>
 	    <th>Code -> Model (lazy)</th>
 	    <th>Model -> Code (strict)</th>

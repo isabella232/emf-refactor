@@ -36,10 +36,57 @@
 	<ul class="midlist">
 		<li><a href="downloads/fase2014_projects.zip" target="_blank">fase2014_projects</a></li>
 	</ul>
-	For evaluation purposes pleasev download <b>fase2014_projects.zip</b> from above and import 
+	For evaluation purposes please download <b>fase2014_projects.zip</b> from above and import 
 	the example projects <b>pdfsam_code</b>, <b>pdfsam_model</b>, and <b>VehicleRentalCompany</b> 
 	into your workspace (<i>File > Import... > General > Existing Projects into Workspace > Next 
 	> Select archive file > Browse (to the zip file) > Select all > Finish</i>).
+	<br/><br/>
+	
+	<h2>Scenarios</h2>	
+	For the evaluation of the approach (respectively the implemented prototype) the following scenarios
+	are performed on the project above:
+	<h3>VehicleRentalCompany</h3>	
+	<b><i>Model -> Code</i></b>
+	<ol class="midlist">
+		<li>Refactoring <i>Hide Attribute</i> on <i>Customer::customerCard</i>.</li>
+		<li>Refactoring <i>Rename Class</i> on <i>Customer</i> (new name: <i>Kunde</i>).</li>
+		<li>Refactoring <i>Rename Attribute</i> on <i>Customer::customerCard</i> (new name: <i>kundenkarte</i>).</li>
+		<li>Refactoring <i>Rename Operation</i> on <i>VehicleRental::rentTruck</i> (new name: <i>rentLKW</i>).</li>
+		<li>Refactoring <i>Pull Up Attribute</i> on <i>Auto::manufacturer</i>.</li>
+		<li>Refactoring <i>Push Down Attribute</i> on <i>Vehicle::manufacturer</i>.</li>
+		<li>Refactoring <i>Introduce Parameter Object</i> on <i>VehicleRental::rentCar</i>.</li>
+	</ol>
+	<b><i>Code -> Model</i></b>
+	<ol class="midlist">
+		<li>Refactoring <i>Hide Field</i> on <i>Customer::customerCard</i>.</li>
+		<li>Refactoring <i>Rename Class</i> on <i>Kunde</i> (new name: <i>Customer</i>).</li>
+		<li>Refactoring <i>Rename Field</i> on <i>Customer::kundenkarte</i> (new name: <i>customerCard</i>).</li>
+		<li>Refactoring <i>Rename Method</i> on <i>VehicleRental::rentCar</i> (new name: <i>renCar</i>).</li>
+		<li>Refactoring <i>Pull Up Field</i> on <i>Truck::manufacturer</i>.</li>
+		<li>Refactoring <i>Push Down Field</i> on <i>Vehicle::manufacturer</i>.</li>
+		<li>Refactoring <i>Introduce Parameter Object</i> on <i>VehicleRental::rentCar</i>.</li>
+	</ol>
+	<h3>PDFsam</h3>	
+	<b><i>Model -> Code</i></b>
+	<ol class="midlist">
+		<li>Refactoring <i>Hide Attribute</i> on <i>o.p.g.business.listener.mediators.ApplicationExitMediator::EXIT_COMMAND</i>.</li>
+		<li>Refactoring <i>Rename Class</i> on <i>o.p.g.guiclient.business.PagesWorker</i> (new name: <i>PageWorker</i>).</li>
+		<li>Refactoring <i>Rename Attribute</i> on <i>o.p.g.guiclient.business.PagesWorker::REMOVE</i> (new name: <i>DELETE</i>).</li>
+		<li>Refactoring <i>Rename Operation</i> on <i>o.p.g.guiclient.business.PageWorker::execute(String...)</i> (new name: <i>executes</i>).</li>
+		<li>Refactoring <i>Pull Up Attribute</i> on <i>o.p.g.gui.panels.JSettingsPanel::PLUGIN_AUTHOR</i>.</li>
+		<li>Refactoring <i>Push Down Attribute</i> on <i>o.p.g.gui.panels.AbstractPlugablePanel::PLUGIN_AUTHOR</i>.</li>
+		<li>Refactoring <i>Introduce Parameter Object</i> on <i>o.p.g.commons.panels.JPdfSelectionPanel</i>.</li>
+	</ol>
+	<b><i>Code -> Model</i></b>
+	<ol class="midlist">
+		<li>Refactoring <i>Hide Field</i> on <i>o.p.g.business.listener.mediators.ApplicationExitMediator::SAVE_AND_EXIT_COMMAND</i>.</li>
+		<li>Refactoring <i>Rename Class</i> on <i>o.p.g.guiclient.business.PageWorker</i> (new name: <i>PagesWorker</i>).</li>
+		<li>Refactoring <i>Rename Field</i> on <i>o.p.g.guiclient.business.PagesWorker::DELETE</i> (new name: <i>REMOVE</i>).</li>
+		<li>Refactoring <i>Rename Method</i> on <i>o.p.g.guiclient.business.PageWorker::execute(String...)</i> (new name: <i>executes</i>).</li>
+		<li>Refactoring <i>Pull Up Field</i> on <i>o.p.g.gui.panels.JSettingsPanel::PLUGIN_AUTHOR</i>.</li>
+		<li>Refactoring <i>Push Down Field</i> on <i>o.p.g.gui.panels.AbstractPlugablePanel::PLUGIN_AUTHOR</i>.</li>
+		<li>Refactoring <i>Introduce Parameter Object</i> on <i>o.p.g.commons.panels.JPdfSelectionPanel</i>.</li>
+	</ol>
 	<br/><br/>
 	
 	</div>

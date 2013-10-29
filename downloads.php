@@ -45,8 +45,7 @@
 		This download area is dedicated to the article <b><i>Besser modellieren - Qualit&auml;tssicherung von UML-Modellen</i></b> 
 		submitted to the <a href="http://www.sigs-datacom.de/fachzeitschriften/objektspektrum.html" target="_blank">OBJEKTspektrum</a> magazine on June 20, 2012, 
 		to the tutorial at <a href="http://www2.imm.dtu.dk/conferences/ECMFA-2012/" target="_blank">ECMFA 2012</a> on July 2, 2012 (find tutorial slides in
-		the <a href="docu.php">documentation</a> section), to the application paper <i>Comparing Model-Driven and Custom Development Approaches for Optimizing the
-		Energy Consumption of ITC-Systems in the Cloud</i> submitted to <a href="http://www.modelsconference.org/" target="_blank">MoDELS 2013</a>, 
+		the <a href="docu.php">documentation</a> section) 
 		as well as to the application paper <i>Quality Assurance of Textual Models within Eclipse using OCL and Model Transformations</i> submitted to 
 		the <a href="http://ocl2013.inf.mit.bme.hu/" target="_blank">13th International Workshop on OCL, Model Constraint and Query Languages
 		(OCL 2013)</a> at <a href="http://www.modelsconference.org/" target="_blank">MoDELS 2013</a>.
@@ -90,14 +89,6 @@
 		into the plugins directory of your RSA installation and restart IBM RSA. Download <b>ExampleProjectRSA755.zip</b> from above and import the example
 		project <b>VehicleRentalCompany</b> into your workspace
 		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).
-		<br/><br/>
-		<h3>DSL Physical Architecture Models (PAM)</h3>
-		<ul class="midlist">
-			<li><a href="downloads/pam.zip" target="_blank">Plugins bundle for PAM models and QA techniques</a></li>
-		</ul>
-		Download <b>pam.zip</b> from above and import the example projects into your workspace
-		(<i>File > Import... > General > Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) > Finish</i>).
-		Then, start the runtime environment of eclipse, create your PAM model, and optimize it!
 		<br/><br/>
 		<h3>DSL Simple Web Modeling Language (SWM)</h3>
 		<ul class="midlist">

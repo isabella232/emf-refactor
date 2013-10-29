@@ -90,10 +90,22 @@
 	<br/><br/>
 	
 	<h2>Results</h2>	
-	For evaluating hypothesis H2 (), we measured the time needed for dynamically mapping the 
-	corresponding elements. The measurements are performed on a Mac Book Air MId 2011 machine 
-	(4 GB RAM; Intel i5-2557M dual core 2.7 Ghz). The following tables show the corresponding 
-	results in microseconds.
+	For evaluating hypothesis H1 ('If both approaches perform a synchronized refactoring, 
+	the results are equal.'), we used all the positive test cases (both refactorings are 
+	applicable) for the refactoring pair <i>RenameAttribute;RenameField</i> for evaluating 
+	whether both approaches lead to the same results. After we performed this refactoring 
+	for each direction and each approach, we compared the resulting artifacts using the 
+	text comparison facility in Eclipse (for Java code) and the model comparison functionality 
+	provided by EMF Compare. The corresponding code and model comparisons showing no differences
+	can be found here:
+	<ul class="midlist">
+		<li><a href="downloads/screenshots.zip" target="_blank">screenshots</a>.</li>
+	</ul>	
+	<br/><br/>
+	For evaluating hypothesis H2 ('The dynamic mapping of model and code is fast enough.'), 
+	we measured the time needed for dynamically mapping the corresponding elements. 
+	The measurements are performed on a Mac Book Air MId 2011 machine (4 GB RAM; Intel i5-2557M 
+	dual core 2.7 Ghz). The following tables show the corresponding results in microseconds.
 	<h3>VehicleRentalCompany</h3>	
 	<table border="1">
 	  <tr>

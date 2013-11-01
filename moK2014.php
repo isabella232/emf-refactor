@@ -45,7 +45,7 @@
 	The following pages summarize the results oof our tests concerning the correctness of both implementations:	
 	<br/><br/>
 	<ol class="midlist">
-	 	<li>Test case 01: <a href="mok2014/Test01_Substitute_ClientNode/Results.html">Substitute Client Node</a></li>
+	 	<li>Test case 01: <a href="mok2014/Test01_Substitute_ClientNode/Results.html" target="_blank">Substitute Client Node</a></li>
 	</ol>
 	
 	</div>

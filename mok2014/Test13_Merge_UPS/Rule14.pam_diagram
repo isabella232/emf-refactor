@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:PAM="PAM" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_MTEBoMtrEeGYeLvvgdx1jg" type="PAM" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_k9B-oDltEeOcuIOJZJx_AQ" type="2012">
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9FB8DltEeOcuIOJZJx_AQ" type="5074"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9FB8TltEeOcuIOJZJx_AQ" type="5075"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9FB8jltEeOcuIOJZJx_AQ" type="5076"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_k9ClsDltEeOcuIOJZJx_AQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k9ClsTltEeOcuIOJZJx_AQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_k9ClsjltEeOcuIOJZJx_AQ"/>
+    <element xmi:type="PAM:UninterruptiblePowerSupply" href="Rule14.pam#//@applies.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9ClszltEeOcuIOJZJx_AQ"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_k9FB8zltEeOcuIOJZJx_AQ" type="2012">
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9FpBDltEeOcuIOJZJx_AQ" type="5074"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9FpBTltEeOcuIOJZJx_AQ" type="5075"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9FpBjltEeOcuIOJZJx_AQ" type="5076"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_k9FpADltEeOcuIOJZJx_AQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k9FpATltEeOcuIOJZJx_AQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_k9FpAjltEeOcuIOJZJx_AQ"/>
+    <element xmi:type="PAM:UninterruptiblePowerSupply" href="Rule14.pam#//@applies.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9FpAzltEeOcuIOJZJx_AQ" x="210"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_k9FpBzltEeOcuIOJZJx_AQ" type="2012">
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9GQEDltEeOcuIOJZJx_AQ" type="5074"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9GQETltEeOcuIOJZJx_AQ" type="5075"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9GQEjltEeOcuIOJZJx_AQ" type="5076"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_k9FpCDltEeOcuIOJZJx_AQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k9FpCTltEeOcuIOJZJx_AQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_k9FpCjltEeOcuIOJZJx_AQ"/>
+    <element xmi:type="PAM:UninterruptiblePowerSupply" href="Rule14.pam#//@applies.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9FpCzltEeOcuIOJZJx_AQ" x="405"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_k9GQEzltEeOcuIOJZJx_AQ" type="2012">
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9G3IDltEeOcuIOJZJx_AQ" type="5074"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9G3ITltEeOcuIOJZJx_AQ" type="5075"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k9G3IjltEeOcuIOJZJx_AQ" type="5076"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_k9GQFDltEeOcuIOJZJx_AQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k9GQFTltEeOcuIOJZJx_AQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_k9GQFjltEeOcuIOJZJx_AQ"/>
+    <element xmi:type="PAM:UninterruptiblePowerSupply" href="Rule14.pam#//@applies.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9GQFzltEeOcuIOJZJx_AQ" x="600"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MTEBoctrEeGYeLvvgdx1jg"/>
+  <element xmi:type="PAM:Room" href="Rule14.pam#/"/>
+</notation:Diagram>

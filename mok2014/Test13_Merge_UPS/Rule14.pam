@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <applies Name="Smart-UPS 3000VA" Out_Watt="2700" Efficiency="98.3"/>
+    <applies Name="USV Eaton 5110" Out_Watt="600" Efficiency="95.0"/>
+    <applies Name="USV Eaton 5115" Out_Watt="950" Efficiency="95.0"/>
+    <applies Name="Smart-UPS 1500VA" Out_Watt="1000" Efficiency="98.3"/>
+</PAM:Room>

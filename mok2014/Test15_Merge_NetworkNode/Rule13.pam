@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W410" Max_Watt="51" MFLOPs="58"/>
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W280" Max_Watt="58" MFLOPs="39"/>
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W280" Max_Watt="58" MFLOPs="39"/>
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W410" Max_Watt="49" MFLOPs="47"/>
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W410" Max_Watt="51" MFLOPs="58"/>
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W280" Max_Watt="58" MFLOPs="39"/>
+  <contains xsi:type="PAM:NetworkNode" Name="Catalyst 4948" Max_Watt="275" Max_Throughput="176"/>
+  <contains xsi:type="PAM:NetworkNode" Name="Catalyst 2975" Max_Watt="190" Max_Throughput="32"/>
+  <contains xsi:type="PAM:NetworkNode" Name="Catalyst 2975" Max_Watt="190" Max_Throughput="32"/>
+  <links connect0="//@contains.1" connect1="//@contains.7"/>
+  <links connect0="//@contains.7" connect1="//@contains.8"/>
+  <links connect0="//@contains.2" connect1="//@contains.8"/>
+  <links connect0="//@contains.5" connect1="//@contains.6"/>
+  <links connect0="//@contains.2" connect1="//@contains.6"/>
+  <links connect0="//@contains.4" connect1="//@contains.6"/>
+  <links connect0="//@contains.3" connect1="//@contains.6"/>
+  <links connect0="//@contains.0" connect1="//@contains.7"/>
+  <links connect0="//@contains.0" connect1="//@contains.6"/>
+  <links connect0="//@contains.1" connect1="//@contains.6"/>
+</PAM:Room>

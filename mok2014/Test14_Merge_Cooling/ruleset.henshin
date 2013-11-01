@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="PAM_Transformation_System">
+  <imports href="PAM#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_Cooling_Downscale0" name="DownscaleCooling0">
+    <lhs xmi:id="Rule_Cooling_Downscale_LHS0" name="LHS">
+      <nodes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0" incoming="Rule_Cooling_Downscale_LHS_applies0">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0_Name" value="&quot;TDCV1200D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0_Max_Watt" value="11132">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0_Cooling_Capacity" value="37000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Downscale_LHS_Room0" outgoing="Rule_Cooling_Downscale_LHS_applies0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Downscale_LHS_applies0" source="Rule_Cooling_Downscale_LHS_Room0" target="Rule_Cooling_Downscale_LHS_Cooling0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_Cooling_Downscale_RHS0" name="RHS">
+      <nodes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0" incoming="Rule_Cooling_Downscale_RHS_applies0">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0_Name" value="&quot;TDCV0700D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0_Max_Watt" value="7820">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0_Cooling_Capacity" value="23000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Downscale_RHS_Room0" outgoing="Rule_Cooling_Downscale_RHS_applies0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Downscale_RHS_applies0" source="Rule_Cooling_Downscale_RHS_Room0" target="Rule_Cooling_Downscale_RHS_Cooling0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_Cooling_Downscale_Mapping_Cooling0" origin="Rule_Cooling_Downscale_LHS_Cooling0" image="Rule_Cooling_Downscale_RHS_Cooling0"/>
+    <mappings xmi:id="Rule_Cooling_Downscale_Mapping0" origin="Rule_Cooling_Downscale_LHS_Room0" image="Rule_Cooling_Downscale_RHS_Room0"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_Cooling_Downscale1" name="DownscaleCooling0">
+    <lhs xmi:id="Rule_Cooling_Downscale_LHS1" name="LHS">
+      <nodes xmi:id="Rule_Cooling_Downscale_LHS_Cooling1" incoming="Rule_Cooling_Downscale_LHS_applies1">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling1_Name" value="&quot;TDCV2500D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling1_Max_Watt" value="16721">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling1_Cooling_Capacity" value="70000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Downscale_LHS_Room1" outgoing="Rule_Cooling_Downscale_LHS_applies1">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Room1_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Downscale_LHS_applies1" source="Rule_Cooling_Downscale_LHS_Room1" target="Rule_Cooling_Downscale_LHS_Cooling1">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_Cooling_Downscale_RHS1" name="RHS">
+      <nodes xmi:id="Rule_Cooling_Downscale_RHS_Cooling1" incoming="Rule_Cooling_Downscale_RHS_applies1">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling1_Name" value="&quot;TDCV0700D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling1_Max_Watt" value="7820">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling1_Cooling_Capacity" value="23000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Downscale_RHS_Room1" outgoing="Rule_Cooling_Downscale_RHS_applies1">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Room1_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Downscale_RHS_applies1" source="Rule_Cooling_Downscale_RHS_Room1" target="Rule_Cooling_Downscale_RHS_Cooling1">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_Cooling_Downscale_Mapping_Cooling1" origin="Rule_Cooling_Downscale_LHS_Cooling1" image="Rule_Cooling_Downscale_RHS_Cooling1"/>
+    <mappings xmi:id="Rule_Cooling_Downscale_Mapping1" origin="Rule_Cooling_Downscale_LHS_Room1" image="Rule_Cooling_Downscale_RHS_Room1"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_Cooling_Delete0" name="DeleteCooling0">
+    <lhs xmi:id="Rule_Cooling_Delete_LHS0" name="LHS">
+      <nodes xmi:id="Rule_Cooling_Delete_LHS_Cooling0" incoming="Rule_Cooling_Delete_LHS_includes0">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Delete_LHS_Cooling0_Name" value="&quot;TDCV2500D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Delete_LHS_Cooling0_Cooling_Capacity" value="70000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Delete_LHS_Cooling0_Max_Watt" value="16721">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Delete_LHS_Room0" outgoing="Rule_Cooling_Delete_LHS_includes0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Delete_LHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Delete_LHS_includes0" source="Rule_Cooling_Delete_LHS_Room0" target="Rule_Cooling_Delete_LHS_Cooling0">
+        <type href="PAM#//Room/includes"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_Cooling_Delete_RHS0" name="RHS">
+      <nodes xmi:id="Rule_Cooling_Delete_RHS_Room0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Delete_RHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_Cooling_Delete_Mapping0" origin="Rule_Cooling_Delete_LHS_Room0" image="Rule_Cooling_Delete_RHS_Room0"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_Cooling_Split0" name="CoolingMerge2">
+    <lhs xmi:id="Rule_Cooling_Split_lhs0" name="lhs">
+      <nodes xmi:id="Rule_Cooling_Split_LHS_Room0" outgoing="Rule_Cooling_Split_LHS_Room0_includes1 Rule_Cooling_Split_LHS_Room0_includes2">
+        <type href="PAM#//Room"/>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Split_LHS_1UninterruptiblePowerSupply0" incoming="Rule_Cooling_Split_LHS_Room0_includes1">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Split_LHS_1UninterruptiblePowerSupply0_Name" value="&quot;TDCV0700D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Split_LHS_1UninterruptiblePowerSupply0_Max_Watt" value="7820">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Split_LHS_1UninterruptiblePowerSupply0_Cooling_Capacity" value="23000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Split_LHS_2UninterruptiblePowerSupply0" incoming="Rule_Cooling_Split_LHS_Room0_includes2">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Split_LHS_2UninterruptiblePowerSupply0_Name" value="&quot;TDCV1200D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Split_LHS_2UninterruptiblePowerSupply0_Max_Watt" value="11132">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Split_LHS_2UninterruptiblePowerSupply0_Cooling_Capacity" value="37000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Split_LHS_Room0_includes1" source="Rule_Cooling_Split_LHS_Room0" target="Rule_Cooling_Split_LHS_1UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/includes"/>
+      </edges>
+      <edges xmi:id="Rule_Cooling_Split_LHS_Room0_includes2" source="Rule_Cooling_Split_LHS_Room0" target="Rule_Cooling_Split_LHS_2UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/includes"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_Cooling_Split_rhs0" name="rhs">
+      <nodes xmi:id="Rule_Cooling_Split_RHS_Room0" outgoing="Rule_Cooling_Split_RHS_Room0_includes">
+        <type href="PAM#//Room"/>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Split_RHS_Cooling0" incoming="Rule_Cooling_Split_RHS_Room0_includes">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Split_RHS_Cooling0_Name" value="&quot;TDCV2500D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Split_RHS_Cooling0_Max_Watt" value="16721">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Split_RHS_Cooling0_Cooling_Capacity" value="70000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Split_RHS_Room0_includes" source="Rule_Cooling_Split_RHS_Room0" target="Rule_Cooling_Split_RHS_Cooling0">
+        <type href="PAM#//Room/includes"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_Cooling_Split_Mapping_Cooling0" origin="Rule_Cooling_Split_LHS_Room0" image="Rule_Cooling_Split_RHS_Room0"/>
+  </units>
+</henshin:Module>

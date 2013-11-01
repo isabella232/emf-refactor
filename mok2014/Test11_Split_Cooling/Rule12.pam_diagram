@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:PAM="PAM" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_ZB3MUMtnEeGYeLvvgdx1jg" type="PAM" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ZB3MUctnEeGYeLvvgdx1jg"/>
+  <element xmi:type="PAM:Room" href="Rule12.pam#/"/>
+</notation:Diagram>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <includes Max_Watt="3600" Name="AC 14 Split" Cooling_Capacity="14000"/>
+  <includes Max_Watt="7820" Name="TDCV0700D" Cooling_Capacity="23000"/>
+</PAM:Room>

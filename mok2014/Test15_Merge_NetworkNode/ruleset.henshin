@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="PAM_Transformation_System">
+  <imports href="PAM#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_ClientNode_Substitution0" name="SubsituteClientNode3">
+    <lhs xmi:id="Rule_ClientNode_Substitution_LHS0" name="LHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0_Name" value="&quot;CELSIUS W280&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0_Max_Watt" value="58">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0_MFLOPS" value="39">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_ClientNode_Substitution_RHS0" name="RHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0_Name" value="&quot;CELSIUS W410&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0_Max_Watt" value="49">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0_MFLOPS" value="47">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_ClientNode_Substitution_Mapping_ClientNode0" origin="Rule_ClientNode_Substitution_LHS_ClientNode0" image="Rule_ClientNode_Substitution_RHS_ClientNode0"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_ClientNode_Substitution1" name="SubsituteClientNode4">
+    <lhs xmi:id="Rule_ClientNode_Substitution_LHS1" name="LHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode1">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode1_Name" value="&quot;CELSIUS W280&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode1_Max_Watt" value="58">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode1_MFLOPS" value="39">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_ClientNode_Substitution_RHS1" name="RHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode1">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode1_Name" value="&quot;CELSIUS W410&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode1_Max_Watt" value="49">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode1_MFLOPS" value="47">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_ClientNode_Substitution_Mapping_ClientNode1" origin="Rule_ClientNode_Substitution_LHS_ClientNode1" image="Rule_ClientNode_Substitution_RHS_ClientNode1"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_ClientNode_Substitution2" name="SubsituteClientNode5">
+    <lhs xmi:id="Rule_ClientNode_Substitution_LHS2" name="LHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode2">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode2_Name" value="&quot;CELSIUS W280&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode2_Max_Watt" value="58">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode2_MFLOPS" value="39">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_ClientNode_Substitution_RHS2" name="RHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode2">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode2_Name" value="&quot;CELSIUS W410&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode2_Max_Watt" value="49">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode2_MFLOPS" value="47">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_ClientNode_Substitution_Mapping_ClientNode2" origin="Rule_ClientNode_Substitution_LHS_ClientNode2" image="Rule_ClientNode_Substitution_RHS_ClientNode2"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_Network_Split0" name="NetworkMerge2">
+    <lhs xmi:id="Rule_NetworkNode_Split_LHS0" name="LHS">
+      <nodes xmi:id="Rule_NetworkNode_Split_LHS_0NetworkObjectLink0" incoming="Rule_NetworkNode_Split_LHS_Room0_links0" outgoing="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_0">
+        <type href="PAM#//NetworkObjectLink"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_LHS_1NetworkObjectLink0" incoming="Rule_NetworkNode_Split_LHS_Room0_links1" outgoing="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_1">
+        <type href="PAM#//NetworkObjectLink"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_LHS_3NetworkObjectLink0" incoming="Rule_NetworkNode_Split_LHS_Room0_links3" outgoing="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect0_3 Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_4">
+        <type href="PAM#//NetworkObjectLink"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_1" incoming="Rule_NetworkNode_Split_LHS_Room0_contains_1 Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_0 Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_1 Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect0_3">
+        <type href="PAM#//NetworkNode"/>
+        <attributes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_1_Name" value="&quot;Catalyst 2975&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_1_Max_Watt" value="190">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_1_Max_Throughput" value="32">
+          <type href="PAM#//NetworkNode/Max_Throughput"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_LHS_2NetworkObjectLink0" incoming="Rule_NetworkNode_Split_LHS_Room0_links2" outgoing="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_2">
+        <type href="PAM#//NetworkObjectLink"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_LHS_Room0" outgoing="Rule_NetworkNode_Split_LHS_Room0_contains_1 Rule_NetworkNode_Split_LHS_Room0_contains_2 Rule_NetworkNode_Split_LHS_Room0_links0 Rule_NetworkNode_Split_LHS_Room0_links1 Rule_NetworkNode_Split_LHS_Room0_links3 Rule_NetworkNode_Split_LHS_Room0_links2">
+        <type href="PAM#//Room"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_2" incoming="Rule_NetworkNode_Split_LHS_Room0_contains_2 Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_4 Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_2">
+        <type href="PAM#//NetworkNode"/>
+        <attributes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_2_Name" value="&quot;Catalyst 2975&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_2_Max_Watt" value="190">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Split_LHS_NetworkNode0_2_Max_Throughput" value="32">
+          <type href="PAM#//NetworkNode/Max_Throughput"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_Room0_links0" source="Rule_NetworkNode_Split_LHS_Room0" target="Rule_NetworkNode_Split_LHS_0NetworkObjectLink0">
+        <type href="PAM#//Room/links"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_0" source="Rule_NetworkNode_Split_LHS_0NetworkObjectLink0" target="Rule_NetworkNode_Split_LHS_NetworkNode0_1">
+        <type href="PAM#//NetworkObjectLink/connect1"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_Room0_links1" source="Rule_NetworkNode_Split_LHS_Room0" target="Rule_NetworkNode_Split_LHS_1NetworkObjectLink0">
+        <type href="PAM#//Room/links"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_1" source="Rule_NetworkNode_Split_LHS_1NetworkObjectLink0" target="Rule_NetworkNode_Split_LHS_NetworkNode0_1">
+        <type href="PAM#//NetworkObjectLink/connect1"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_4" source="Rule_NetworkNode_Split_LHS_3NetworkObjectLink0" target="Rule_NetworkNode_Split_LHS_NetworkNode0_2">
+        <type href="PAM#//NetworkObjectLink/connect1"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_Room0_links3" source="Rule_NetworkNode_Split_LHS_Room0" target="Rule_NetworkNode_Split_LHS_3NetworkObjectLink0">
+        <type href="PAM#//Room/links"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect0_3" source="Rule_NetworkNode_Split_LHS_3NetworkObjectLink0" target="Rule_NetworkNode_Split_LHS_NetworkNode0_1">
+        <type href="PAM#//NetworkObjectLink/connect0"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_Room0_links2" source="Rule_NetworkNode_Split_LHS_Room0" target="Rule_NetworkNode_Split_LHS_2NetworkObjectLink0">
+        <type href="PAM#//Room/links"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_NetworkObjectLink0_connect1_2" source="Rule_NetworkNode_Split_LHS_2NetworkObjectLink0" target="Rule_NetworkNode_Split_LHS_NetworkNode0_2">
+        <type href="PAM#//NetworkObjectLink/connect1"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_Room0_contains_1" source="Rule_NetworkNode_Split_LHS_Room0" target="Rule_NetworkNode_Split_LHS_NetworkNode0_1">
+        <type href="PAM#//Room/contains"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_LHS_Room0_contains_2" source="Rule_NetworkNode_Split_LHS_Room0" target="Rule_NetworkNode_Split_LHS_NetworkNode0_2">
+        <type href="PAM#//Room/contains"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_NetworkNode_Split_RHS0" name="RHS">
+      <nodes xmi:id="Rule_NetworkNode_Split_RHS_0NetworkObjectLink0" incoming="Rule_NetworkNode_Split_RHS_Room0_links0" outgoing="Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_0">
+        <type href="PAM#//NetworkObjectLink"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_RHS_1NetworkObjectLink0" incoming="Rule_NetworkNode_Split_RHS_Room0_links1" outgoing="Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_1">
+        <type href="PAM#//NetworkObjectLink"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_RHS_2NetworkObjectLink0" incoming="Rule_NetworkNode_Split_RHS_Room0_links2" outgoing="Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_2">
+        <type href="PAM#//NetworkObjectLink"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_RHS_Room0" outgoing="Rule_NetworkNode_Split_RHS_Room0_contains Rule_NetworkNode_Split_RHS_Room0_links0 Rule_NetworkNode_Split_RHS_Room0_links1 Rule_NetworkNode_Split_RHS_Room0_links2">
+        <type href="PAM#//Room"/>
+      </nodes>
+      <nodes xmi:id="Rule_NetworkNode_Split_RHS_NetworkNode0" incoming="Rule_NetworkNode_Split_RHS_Room0_contains Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_0 Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_1 Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_2">
+        <type href="PAM#//NetworkNode"/>
+        <attributes xmi:id="Rule_NetworkNode_Split_RHS_NetworkNode0_Name" value="&quot;Catalyst 4948&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Split_RHS_NetworkNode0_Max_Watt" value="275">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Split_RHS_NetworkNode0_Max_Throughput" value="176">
+          <type href="PAM#//NetworkNode/Max_Throughput"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_NetworkNode_Split_RHS_Room0_links0" source="Rule_NetworkNode_Split_RHS_Room0" target="Rule_NetworkNode_Split_RHS_0NetworkObjectLink0">
+        <type href="PAM#//Room/links"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_0" source="Rule_NetworkNode_Split_RHS_0NetworkObjectLink0" target="Rule_NetworkNode_Split_RHS_NetworkNode0">
+        <type href="PAM#//NetworkObjectLink/connect1"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_RHS_Room0_links1" source="Rule_NetworkNode_Split_RHS_Room0" target="Rule_NetworkNode_Split_RHS_1NetworkObjectLink0">
+        <type href="PAM#//Room/links"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_1" source="Rule_NetworkNode_Split_RHS_1NetworkObjectLink0" target="Rule_NetworkNode_Split_RHS_NetworkNode0">
+        <type href="PAM#//NetworkObjectLink/connect1"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_RHS_Room0_links2" source="Rule_NetworkNode_Split_RHS_Room0" target="Rule_NetworkNode_Split_RHS_2NetworkObjectLink0">
+        <type href="PAM#//Room/links"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_RHS_NetworkObjectLink0_connect1_2" source="Rule_NetworkNode_Split_RHS_2NetworkObjectLink0" target="Rule_NetworkNode_Split_RHS_NetworkNode0">
+        <type href="PAM#//NetworkObjectLink/connect1"/>
+      </edges>
+      <edges xmi:id="Rule_NetworkNode_Split_RHS_Room0_contains" source="Rule_NetworkNode_Split_RHS_Room0" target="Rule_NetworkNode_Split_RHS_NetworkNode0">
+        <type href="PAM#//Room/contains"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_NetworkNode_Split_Mapping_Room0" origin="Rule_NetworkNode_Split_LHS_Room0" image="Rule_NetworkNode_Split_RHS_Room0"/>
+    <mappings xmi:id="Rule_NetworkNode_Split_Mapping_0NetworkObjectLink0" origin="Rule_NetworkNode_Split_LHS_0NetworkObjectLink0" image="Rule_NetworkNode_Split_RHS_0NetworkObjectLink0"/>
+    <mappings xmi:id="Rule_NetworkNode_Split_Mapping_1NetworkObjectLink0" origin="Rule_NetworkNode_Split_LHS_1NetworkObjectLink0" image="Rule_NetworkNode_Split_RHS_1NetworkObjectLink0"/>
+    <mappings xmi:id="Rule_NetworkNode_Split_Mapping_2NetworkObjectLink0" origin="Rule_NetworkNode_Split_LHS_2NetworkObjectLink0" image="Rule_NetworkNode_Split_RHS_2NetworkObjectLink0"/>
+  </units>
+</henshin:Module>

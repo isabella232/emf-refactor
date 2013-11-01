@@ -55,6 +55,11 @@
 	 	<li>Test Case 08: <a href="mok2014/Test08_Delete_UPS/Results.html" target="_blank">Delete Uninterruptible Power Supply</a></li>
 	 	<li>Test Case 09: <a href="mok2014/Test09_Delete_Cooling/Results.html" target="_blank">Delete Cooling</a></li>
 	 	<li>Test Case 10: <a href="mok2014/Test10_Split_UPS/Results.html" target="_blank">Split Uninterruptible Power Supply</a></li>
+	 	<li>Test Case 11: <a href="mok2014/Test11_Split_Cooling/Results.html" target="_blank">Split Cooling</a></li>
+	 	<li>Test Case 12: <a href="mok2014/Test12_Split_NetworkNode/Results.html" target="_blank">Split Network Node</a></li>
+	 	<li>Test Case 13: <a href="mok2014/Test13_Merge_UPS/Results.html" target="_blank">Merge Uninterruptible Power Supplies</a></li>
+	 	<li>Test Case 14: <a href="mok2014/Test14_Merge_Cooling/Results.html" target="_blank">Merge Coolings</a></li>
+	 	<li>Test Case 15: <a href="mok2014/Test15_Merge_NetworkNode/Results.html" target="_blank">Merge Network Nodes</a></li>
 	</ul>
 	
 	</div>

@@ -19,17 +19,31 @@
 	
 	<p>
 	<h2>Installation Guide</h2>
-	<!-- ol class="midlist">
+	<ol class="midlist">
+	 	
 	 	<li>Please download the <b><i>Juno Eclipse Modeling Tools</i></b> from <a href="http://www.eclipse.org/downloads/packages/release/juno/sr2" target="_blank">
-			http://www.eclipse.org/downloads/packages/release/juno/sr2</a></li>. Unzip and start Eclipse and update the system (<i>Help > Check for Updates</i>).</li>
+		http://www.eclipse.org/downloads/packages/release/juno/sr2</a></li>. Unzip and start Eclipse and update the system (<i>Help > Check for Updates</i>).</li>
+	    
 	    <li>Restart Eclipse and install the EMF model transformation language <b><i>Henshin</i></b> (<i>Help > Install New Software... > 
-			Work with: <a href="http://download.eclipse.org/modeling/emft/henshin/updates/release" target="_blank">http://download.eclipse.org/modeling/emft/henshin/updates/release</a> > next > ...</i>).</li>
-		<li>Restart Eclipse and install the prototype implementation (branch of <b><i>EMF Refactor</i></b>):
+		Work with: <a href="http://download.eclipse.org/modeling/emft/henshin/updates/release" target="_blank">http://download.eclipse.org/modeling/emft/henshin/updates/release</a> > next > ...</i>).</li>
+		
+		<li>Restart Eclipse and install the EMF model quality assurance tool set <b><i>EMF Refactor</i></b>:
+		<ul class="midlist">
+		 	
+		 	<li>Install the basic tools (<i>Help > Install New Software... > Work with: 
+		 	<a href="http://download.eclipse.org/emf-refactor/updatesite-basic" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-basic</a> > next > ...</i>).</li>
+		    
+		    <li>Restart Eclipse and install the extending Henshin adapter (<i>Help > Install New Software... > Work with: 
+		    <a href="http://download.eclipse.org/emf-refactor/updatesite-extensions" target="_blank">http://download.eclipse.org/emf-refactor/updatesite-extensions</a> > next > ...</i>).</li>
+		    
+		    <li>Restart Eclipse and install the PAM implementation (branch of <b><i>EMF Refactor</i></b>):
 			<i>Help > Install New Software... > Work with: 
-		    <a href="http://download.eclipse.org/emf-refactor/updatesite-fase2014" target="_blank">
-		    http://download.eclipse.org/emf-refactor/updatesite-fase2014</a> > next > ...</i>.</li>
+		    <a href="http://download.eclipse.org/emf-refactor/updatesite-mok2014" target="_blank">
+		    http://download.eclipse.org/emf-refactor/updatesite-mok2014</a> > next > ...</i>.</li>
+		</ul></li>
+		
 		<li>Restart Eclipse.</li>
-	</ol -->
+	</ol>
 	<p>
 	<h2>Projects</h2>
 	<ul class="midlist">

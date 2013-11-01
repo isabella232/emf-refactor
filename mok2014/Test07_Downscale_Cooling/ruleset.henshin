@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="PAM_Transformation_System">
+  <imports href="PAM#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_Cooling_Downscale0" name="DownscaleCooling0">
+    <lhs xmi:id="Rule_Cooling_Downscale_LHS0" name="LHS">
+      <nodes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0" incoming="Rule_Cooling_Downscale_LHS_applies0">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0_Name" value="&quot;TDCV4000D&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0_Max_Watt" value="23920">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Cooling0_Cooling_Capacity" value="102000">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Downscale_LHS_Room0" outgoing="Rule_Cooling_Downscale_LHS_applies0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_LHS_Room0_Name" value="&quot;Room&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Downscale_LHS_applies0" source="Rule_Cooling_Downscale_LHS_Room0" target="Rule_Cooling_Downscale_LHS_Cooling0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_Cooling_Downscale_RHS0" name="RHS">
+      <nodes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0" incoming="Rule_Cooling_Downscale_RHS_applies0">
+        <type href="PAM#//Cooling"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0_Name" value="&quot;InRoom SC Portable&quot;">
+          <type href="PAM#//Cooling/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0_Max_Watt" value="1170">
+          <type href="PAM#//Cooling/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Cooling0_Cooling_Capacity" value="2900">
+          <type href="PAM#//Cooling/Cooling_Capacity"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_Cooling_Downscale_RHS_Room0" outgoing="Rule_Cooling_Downscale_RHS_applies0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_Cooling_Downscale_RHS_Room0_Name" value="&quot;Room&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_Cooling_Downscale_RHS_applies0" source="Rule_Cooling_Downscale_RHS_Room0" target="Rule_Cooling_Downscale_RHS_Cooling0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_Cooling_Downscale_Mapping_Cooling0" origin="Rule_Cooling_Downscale_LHS_Cooling0" image="Rule_Cooling_Downscale_RHS_Cooling0"/>
+    <mappings xmi:id="Rule_Cooling_Downscale_Mapping0" origin="Rule_Cooling_Downscale_LHS_Room0" image="Rule_Cooling_Downscale_RHS_Room0"/>
+  </units>
+</henshin:Module>

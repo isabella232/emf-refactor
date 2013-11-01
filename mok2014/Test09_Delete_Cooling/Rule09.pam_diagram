@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:PAM="PAM" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_YrfMIMtFEeG8TqR9m2WeoA" type="PAM" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_88aQsDjwEeOgRvCMT13TKg" type="2010">
+    <children xmi:type="notation:DecorationNode" xmi:id="_88cs8DjwEeOgRvCMT13TKg" type="5070"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_88cs8TjwEeOgRvCMT13TKg" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_8_sOMDjwEeOgRvCMT13TKg" type="3008">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_sONTjwEeOgRvCMT13TKg" type="5054"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_sONjjwEeOgRvCMT13TKg" type="5055"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_sONzjwEeOgRvCMT13TKg" type="5056"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_sOODjwEeOgRvCMT13TKg" type="5057"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_sOOTjwEeOgRvCMT13TKg" type="5058"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_sOOjjwEeOgRvCMT13TKg" type="5059"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_8_sOMTjwEeOgRvCMT13TKg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_8_sOMjjwEeOgRvCMT13TKg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_8_sOMzjwEeOgRvCMT13TKg"/>
+        <element xmi:type="PAM:ServerNode" href="Rule09.pam#//@subrooms.0/@contains.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8_sONDjwEeOgRvCMT13TKg" x="10" y="24"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_8_tcUDjwEeOgRvCMT13TKg" type="3010">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_tcVTjwEeOgRvCMT13TKg" type="5063"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_tcVjjwEeOgRvCMT13TKg" type="5064"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_tcVzjwEeOgRvCMT13TKg" type="5065"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_8_tcUTjwEeOgRvCMT13TKg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_8_tcUjjwEeOgRvCMT13TKg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_8_tcUzjwEeOgRvCMT13TKg"/>
+        <element xmi:type="PAM:Cooling" href="Rule09.pam#//@subrooms.0/@includes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8_tcVDjwEeOgRvCMT13TKg" x="201" y="5"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_8_uDYDjwEeOgRvCMT13TKg" type="3010">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_uDZTjwEeOgRvCMT13TKg" type="5063"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_uDZjjwEeOgRvCMT13TKg" type="5064"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_uDZzjwEeOgRvCMT13TKg" type="5065"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_8_uDYTjwEeOgRvCMT13TKg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_8_uDYjjwEeOgRvCMT13TKg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_8_uDYzjwEeOgRvCMT13TKg"/>
+        <element xmi:type="PAM:Cooling" href="Rule09.pam#//@subrooms.0/@includes.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8_uDZDjwEeOgRvCMT13TKg" x="205" y="144"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_8_uDaDjwEeOgRvCMT13TKg" type="3010">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_uqcDjwEeOgRvCMT13TKg" type="5063"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_uqcTjwEeOgRvCMT13TKg" type="5064"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8_uqcjjwEeOgRvCMT13TKg" type="5065"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_8_uDaTjwEeOgRvCMT13TKg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_8_uDajjwEeOgRvCMT13TKg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_8_uDazjwEeOgRvCMT13TKg"/>
+        <element xmi:type="PAM:Cooling" href="Rule09.pam#//@subrooms.0/@includes.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8_uDbDjwEeOgRvCMT13TKg" x="445" y="69"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_88aQsTjwEeOgRvCMT13TKg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_88aQsjjwEeOgRvCMT13TKg" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_88aQszjwEeOgRvCMT13TKg"/>
+    <element xmi:type="PAM:Room" href="Rule09.pam#//@subrooms.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_88aQtDjwEeOgRvCMT13TKg" width="676" height="316"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_YrfMIctFEeG8TqR9m2WeoA"/>
+  <element xmi:type="PAM:Room" href="Rule09.pam#/"/>
+</notation:Diagram>

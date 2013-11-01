@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <applies Name="USV Eaton 5110" Out_Watt="600" Efficiency="95.0"/>
+  <subrooms Name="Room">
+    <applies Name="USV Eaton MX 5000 RT3" Out_Watt="100000" Efficiency="91.0"/>
+    <contains xsi:type="PAM:ServerNode" Name="System x3500" Max_Watt="247" Max_Capacity="1024" Idle_Watt="57" Act_Watt="142" MFLOPs="489"/>
+  </subrooms>
+</PAM:Room>

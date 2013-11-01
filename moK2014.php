@@ -44,13 +44,18 @@
 	<h2>Test results</h2>	
 	The following pages summarize the results oof our tests concerning the correctness of both implementations:	
 	<br/><br/>
-	<ol class="midlist">
+	<ul class="midlist">
 	 	<li>Test Case 01: <a href="mok2014/Test01_Substitute_ClientNode/Results.html" target="_blank">Substitute Client Node</a></li>
 	 	<li>Test Case 02: <a href="mok2014/Test02_Substitute_ServerNode/Results.html" target="_blank">Substitute Server Node</a></li>
 	 	<li>Test Case 03: <a href="mok2014/Test03_Substitute_NetworkNode/Results.html" target="_blank">Substitute Network Node</a></li>
 	 	<li>Test Case 04: <a href="mok2014/Test04_Substitute_UPS/Results.html" target="_blank">Substitute Uninterruptible Power Supply</a></li>
 	 	<li>Test Case 05: <a href="mok2014/Test05_Substitute_Cooling/Results.html" target="_blank">Substitute Cooling</a></li>
-	</ol>
+	 	<li>Test Case 06: <a href="mok2014/Test06_Downscale_UPS/Results.html" target="_blank">Downscale Uninterruptible Power Supply</a></li>
+	 	<li>Test Case 07: <a href="mok2014/Test07_Downscale_Cooling/Results.html" target="_blank">Downscale Cooling</a></li>
+	 	<li>Test Case 08: <a href="mok2014/Test08_Delete_UPS/Results.html" target="_blank">Delete Uninterruptible Power Supply</a></li>
+	 	<li>Test Case 09: <a href="mok2014/Test09_Delete_Cooling/Results.html" target="_blank">Delete Cooling</a></li>
+	 	<li>Test Case 10: <a href="mok2014/Test10_Split_UPS/Results.html" target="_blank">Split Uninterruptible Power Supply</a></li>
+	</ul>
 	
 	</div>
 	

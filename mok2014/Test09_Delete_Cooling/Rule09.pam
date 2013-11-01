@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <subrooms Name="Room">
+    <includes Max_Watt="1170" Name="InRoom SC Portable" Cooling_Capacity="2900"/>
+    <includes Max_Watt="7820" Name="TDCV0700D" Cooling_Capacity="23000"/>
+    <includes Max_Watt="1640" Name="InRoom SC Portbale" Cooling_Capacity="3000"/>
+    <contains xsi:type="PAM:ServerNode" Name="System x3500" Max_Watt="247" Max_Capacity="1024" Idle_Watt="57" Act_Watt="247" MFLOPs="489"/>
+  </subrooms>
+</PAM:Room>

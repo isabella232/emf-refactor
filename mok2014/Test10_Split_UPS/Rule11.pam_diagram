@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:PAM="PAM" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_6jHvwMtXEeGYeLvvgdx1jg" type="PAM" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_gUtDkMwyEeGzSsg4xVITOg" type="2012">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUtqoMwyEeGzSsg4xVITOg" type="5074"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUtqocwyEeGzSsg4xVITOg" type="5075"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUtqoswyEeGzSsg4xVITOg" type="5076"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_gUtDkcwyEeGzSsg4xVITOg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gUtDkswyEeGzSsg4xVITOg" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_gUtDk8wyEeGzSsg4xVITOg"/>
+    <element xmi:type="PAM:UninterruptiblePowerSupply" href="Rule11.pam#//@applies.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gUtDlMwyEeGzSsg4xVITOg" x="30" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_gUuRsMwyEeGzSsg4xVITOg" type="2012">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUuRtcwyEeGzSsg4xVITOg" type="5074"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUu4wMwyEeGzSsg4xVITOg" type="5075"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUu4wcwyEeGzSsg4xVITOg" type="5076"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_gUuRscwyEeGzSsg4xVITOg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gUuRsswyEeGzSsg4xVITOg" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_gUuRs8wyEeGzSsg4xVITOg"/>
+    <element xmi:type="PAM:UninterruptiblePowerSupply" href="Rule11.pam#//@applies.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gUuRtMwyEeGzSsg4xVITOg" x="235" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_gUu4wswyEeGzSsg4xVITOg" type="2012">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUvf0MwyEeGzSsg4xVITOg" type="5074"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUvf0cwyEeGzSsg4xVITOg" type="5075"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gUvf0swyEeGzSsg4xVITOg" type="5076"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_gUu4w8wyEeGzSsg4xVITOg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gUu4xMwyEeGzSsg4xVITOg" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_gUu4xcwyEeGzSsg4xVITOg"/>
+    <element xmi:type="PAM:UninterruptiblePowerSupply" href="Rule11.pam#//@applies.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gUu4xswyEeGzSsg4xVITOg" x="445" y="30"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_6jHvwctXEeGYeLvvgdx1jg"/>
+  <element xmi:type="PAM:Room" href="Rule11.pam#/"/>
+</notation:Diagram>

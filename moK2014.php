@@ -32,14 +32,14 @@
 	</ol -->
 	<p>
 	<h2>Projects</h2>
-	<!-- ul class="midlist">
-		<li><a href="downloads/fase2014_projects.zip" target="_blank">fase2014_projects</a></li>
+	<ul class="midlist">
+		<li><a href="downloads/pam_test_models.zip" target="_blank">pam_test_models</a></li>
 	</ul>
-	For evaluation purposes please download <b>fase2014_projects.zip</b> from above and import 
-	the example projects <b>pdfsam_code</b>, <b>pdfsam_model</b>, and <b>VehicleRentalCompany</b> 
-	into your workspace (<i>File > Import... > General > Existing Projects into Workspace > Next 
-	> Select archive file > Browse (to the zip file) > Select all > Finish</i>).
-	<br/><br/ -->
+	For evaluation purposes please download <b>pam_test_models.zip</b> from above and import 
+	the example project <b>PAM.tests</b> into your workspace (<i>File > Import... > General 
+	> Existing Projects into Workspace > Next > Select archive file > Browse (to the zip file) 
+	> Select all > Finish</i>).
+	<br/><br/>
 	<p>
 	<h2>Test results</h2>	
 	The following pages summarize the results oof our tests concerning the correctness of both implementations:	

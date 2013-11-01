@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W410" Max_Watt="49" MFLOPs="47"/>
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W410" Max_Watt="51" MFLOPs="58"/>
+  <contains xsi:type="PAM:ClientNode" Name="CELSIUS W280" Max_Watt="58" MFLOPs="39"/>
+</PAM:Room>

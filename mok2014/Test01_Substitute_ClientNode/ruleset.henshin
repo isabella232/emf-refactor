@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="PAM_Transformation_System">
+  <imports href="PAM#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_ClientNode_Substitution0" name="SubsituteClientNode2">
+    <lhs xmi:id="Rule_ClientNode_Substitution_LHS0" name="LHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0_Name" value="&quot;CELSIUS W280&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0_Max_Watt" value="58">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_LHS_ClientNode0_MFLOPS" value="39">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_ClientNode_Substitution_RHS0" name="RHS">
+      <nodes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0">
+        <type href="PAM#//ClientNode"/>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0_Name" value="&quot;CELSIUS W410&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0_Max_Watt" value="49">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ClientNode_Substitution_RHS_ClientNode0_MFLOPS" value="47">
+          <type href="PAM#//ClientNode/MFLOPs"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_ClientNode_Substitution_Mapping_ClientNode0" origin="Rule_ClientNode_Substitution_LHS_ClientNode0" image="Rule_ClientNode_Substitution_RHS_ClientNode0"/>
+  </units>
+</henshin:Module>

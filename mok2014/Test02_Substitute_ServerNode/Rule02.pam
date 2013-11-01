@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <contains xsi:type="PAM:ServerNode" Name="System x3500" Max_Watt="247" Max_Capacity="1024" Idle_Watt="57" Act_Watt="142" MFLOPs="489"/>
+  <contains xsi:type="PAM:ServerNode" Name="PowerEdge T630" Max_Watt="100" Max_Capacity="64" Idle_Watt="50" Act_Watt="119" MFLOPs="483"/>
+  <contains xsi:type="PAM:ServerNode" Name="Gateway GT350" Max_Watt="257" Max_Capacity="64" Idle_Watt="78" Act_Watt="180" MFLOPs="240"/>
+</PAM:Room>

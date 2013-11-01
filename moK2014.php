@@ -40,12 +40,16 @@
 	into your workspace (<i>File > Import... > General > Existing Projects into Workspace > Next 
 	> Select archive file > Browse (to the zip file) > Select all > Finish</i>).
 	<br/><br/ -->
-	
+	<p>
 	<h2>Test results</h2>	
 	The following pages summarize the results oof our tests concerning the correctness of both implementations:	
 	<br/><br/>
 	<ol class="midlist">
-	 	<li>Test case 01: <a href="mok2014/Test01_Substitute_ClientNode/Results.html" target="_blank">Substitute Client Node</a></li>
+	 	<li>Test Case 01: <a href="mok2014/Test01_Substitute_ClientNode/Results.html" target="_blank">Substitute Client Node</a></li>
+	 	<li>Test Case 02: <a href="mok2014/Test02_Substitute_ServerNode/Results.html" target="_blank">Substitute Server Node</a></li>
+	 	<li>Test Case 03: <a href="mok2014/Test03_Substitute_NetworkNode/Results.html" target="_blank">Substitute Network Node</a></li>
+	 	<li>Test Case 04: <a href="mok2014/Test04_Substitute_UPS/Results.html" target="_blank">Substitute Uninterruptible Power Supply</a></li>
+	 	<li>Test Case 05: <a href="mok2014/Test05_Substitute_Cooling/Results.html" target="_blank">Substitute Cooling</a></li>
 	</ol>
 	
 	</div>

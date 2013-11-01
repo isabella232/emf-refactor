@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="PAM_Transformation_System">
+  <imports href="PAM#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_NetworkNode_Substitution0" name="SubsituteNetworkNode1">
+    <lhs xmi:id="Rule_NetworkNode_Substitution_LHS0" name="LHS">
+      <nodes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode0">
+        <type href="PAM#//NetworkNode"/>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode0_Name" value="&quot;Catalyst 3560-12PC&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode0_Max_Watt" value="22">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode0_Max_Throughput" value="32">
+          <type href="PAM#//NetworkNode/Max_Throughput"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_NetworkNode_Substitution_RHS0" name="RHS">
+      <nodes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode0">
+        <type href="PAM#//NetworkNode"/>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode0_Name" value="&quot;Catalyst 3560-8PC&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode0_Max_Watt" value="19">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode0_Max_Throughput" value="32">
+          <type href="PAM#//NetworkNode/Max_Throughput"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_NetworkNode_Substitution_Mapping_NetworkNode0" origin="Rule_NetworkNode_Substitution_LHS_NetworkNode0" image="Rule_NetworkNode_Substitution_RHS_NetworkNode0"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_NetworkNode_Substitution1" name="SubsituteNetworkNode2">
+    <lhs xmi:id="Rule_NetworkNode_Substitution_LHS1" name="LHS">
+      <nodes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode1">
+        <type href="PAM#//NetworkNode"/>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode1_Name" value="&quot;Catalyst 3560G-24TS&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode1_Max_Watt" value="24">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_LHS_NetworkNode1_Max_Throughput" value="32">
+          <type href="PAM#//NetworkNode/Max_Throughput"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_NetworkNode_Substitution_RHS1" name="RHS">
+      <nodes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode1">
+        <type href="PAM#//NetworkNode"/>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode1_Name" value="&quot;Catalyst 3560-8PC&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode1_Max_Watt" value="19">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_NetworkNode_Substitution_RHS_NetworkNode1_Max_Throughput" value="32">
+          <type href="PAM#//NetworkNode/Max_Throughput"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_NetworkNode_Substitution_Mapping_NetworkNode1" origin="Rule_NetworkNode_Substitution_LHS_NetworkNode1" image="Rule_NetworkNode_Substitution_RHS_NetworkNode1"/>
+  </units>
+</henshin:Module>

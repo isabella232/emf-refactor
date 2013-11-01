@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAM:Room xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PAM="PAM" Name="Diagram">
+  <contains xsi:type="PAM:NetworkNode" Name="Catalyst 3560-8PC" Max_Watt="19" Max_Throughput="32"/>
+  <contains xsi:type="PAM:NetworkNode" Name="Catalyst 3560-12PC" Max_Watt="22" Max_Throughput="32"/>
+  <contains xsi:type="PAM:NetworkNode" Name="Catalyst 3560G-24TS" Max_Watt="24" Max_Throughput="32"/>
+</PAM:Room>

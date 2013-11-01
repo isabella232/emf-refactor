@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="PAM_Transformation_System">
+  <imports href="PAM#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_ServerNode_Substitution0" name="SubsituteServerNode2">
+    <lhs xmi:id="Rule_ServerNode_Substitution_LHS0" name="LHS">
+      <nodes xmi:id="Rule_ServerNode_Substitution_LHS_ServerNode0">
+        <type href="PAM#//ServerNode"/>
+        <attributes xmi:id="Rule_ServerNode_Substitution_LHS_ServerNode0_Max_Watt" value="257">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_LHS_ServerNode0_Name" value="&quot;Gateway GT350&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_LHS_ServerNode0_MFLOPS" value="240">
+          <type href="PAM#//ServerNode/MFLOPs"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_LHS_ServerNode0_Max_Capacity" value="64">
+          <type href="PAM#//ServerNode/Max_Capacity"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_LHS_ServerNode0_Idle_Watt" value="78">
+          <type href="PAM#//ServerNode/Idle_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_LHS_ServerNode0_Act_Watt" value="180">
+          <type href="PAM#//ServerNode/Act_Watt"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_ServerNode_Substitution_RHS0" name="RHS">
+      <nodes xmi:id="Rule_ServerNode_Substitution_RHS_ServerNode0">
+        <type href="PAM#//ServerNode"/>
+        <attributes xmi:id="Rule_ServerNode_Substitution_RHS_ServerNode0_Max_Watt" value="100">
+          <type href="PAM#//Nodes/Max_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_RHS_ServerNode0_Name" value="&quot;PowerEdge T630&quot;">
+          <type href="PAM#//Nodes/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_RHS_ServerNode0_MFLOPS" value="483">
+          <type href="PAM#//ServerNode/MFLOPs"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_RHS_ServerNode0_Max_Capacity" value="64">
+          <type href="PAM#//ServerNode/Max_Capacity"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_RHS_ServerNode0_Idle_Watt" value="50">
+          <type href="PAM#//ServerNode/Idle_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_ServerNode_Substitution_RHS_ServerNode0_Act_Watt" value="119">
+          <type href="PAM#//ServerNode/Act_Watt"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_ServerNode_Substitution_Mapping_ServerNode0" origin="Rule_ServerNode_Substitution_LHS_ServerNode0" image="Rule_ServerNode_Substitution_RHS_ServerNode0"/>
+  </units>
+</henshin:Module>

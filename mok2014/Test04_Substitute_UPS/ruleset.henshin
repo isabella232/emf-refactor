@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="PAM_Transformation_System">
+  <imports href="PAM#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_UninterruptiblePowerSupply_Substitution0" name="SubsituteUPS0">
+    <lhs xmi:id="Rule_UninterruptiblePowerSupply_Substitution_LHS0" name="LHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_LHS_UninterruptiblePowerSupply0">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_LHS_UninterruptiblePowerSupply0_Name" value="&quot;USV Eaton 5110&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_LHS_UninterruptiblePowerSupply0_Out_Watt" value="600">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_LHS_UninterruptiblePowerSupply0_Efficiency" value="95.0">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="Rule_UninterruptiblePowerSupply_Substitution_RHS0" name="RHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_RHS_UninterruptiblePowerSupply0">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_RHS_UninterruptiblePowerSupply0_Name" value="&quot;Smart-UPS 1000VA&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_RHS_UninterruptiblePowerSupply0_Out_Watt" value="700">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Substitution_RHS_UninterruptiblePowerSupply0_Efficiency" value="98.2">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_UninterruptiblePowerSupply_Substitution_Mapping_UninterruptiblePowerSupply0" origin="Rule_UninterruptiblePowerSupply_Substitution_LHS_UninterruptiblePowerSupply0" image="Rule_UninterruptiblePowerSupply_Substitution_RHS_UninterruptiblePowerSupply0"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_UninterruptiblePowerSupply_Downscale0" name="DownscaleUPS2">
+    <lhs xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS0" name="LHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply0" incoming="Rule_UninterruptiblePowerSupply_Downscale_LHS_applies0">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply0_Name" value="&quot;USV Eaton 5110&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply0_Out_Watt" value="600">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply0_Efficiency" value="95.0">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room0" outgoing="Rule_UninterruptiblePowerSupply_Downscale_LHS_applies0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_applies0" source="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room0" target="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS0" name="RHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply0" incoming="Rule_UninterruptiblePowerSupply_Downscale_RHS_applies0">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply0_Name" value="&quot;Smart-UPS 1000VA&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply0_Out_Watt" value="700">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply0_Efficiency" value="98.2">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room0" outgoing="Rule_UninterruptiblePowerSupply_Downscale_RHS_applies0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_applies0" source="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room0" target="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_UninterruptiblePowerSupply_Downscale_Mapping_UninterruptiblePowerSupply0" origin="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply0" image="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply0"/>
+    <mappings xmi:id="Rule_UninterruptiblePowerSupply_Downscale_Mapping0" origin="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room0" image="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room0"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_UninterruptiblePowerSupply_Downscale1" name="DownscaleUPS2">
+    <lhs xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS1" name="LHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply1" incoming="Rule_UninterruptiblePowerSupply_Downscale_LHS_applies1">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply1_Name" value="&quot;Smart-UPS 1500VA&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply1_Out_Watt" value="1000">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply1_Efficiency" value="98.3">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room1" outgoing="Rule_UninterruptiblePowerSupply_Downscale_LHS_applies1">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room1_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Downscale_LHS_applies1" source="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room1" target="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply1">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS1" name="RHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply1" incoming="Rule_UninterruptiblePowerSupply_Downscale_RHS_applies1">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply1_Name" value="&quot;Smart-UPS 1000VA&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply1_Out_Watt" value="700">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply1_Efficiency" value="98.2">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room1" outgoing="Rule_UninterruptiblePowerSupply_Downscale_RHS_applies1">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room1_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Downscale_RHS_applies1" source="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room1" target="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply1">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_UninterruptiblePowerSupply_Downscale_Mapping_UninterruptiblePowerSupply1" origin="Rule_UninterruptiblePowerSupply_Downscale_LHS_UninterruptiblePowerSupply1" image="Rule_UninterruptiblePowerSupply_Downscale_RHS_UninterruptiblePowerSupply1"/>
+    <mappings xmi:id="Rule_UninterruptiblePowerSupply_Downscale_Mapping1" origin="Rule_UninterruptiblePowerSupply_Downscale_LHS_Room1" image="Rule_UninterruptiblePowerSupply_Downscale_RHS_Room1"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_UninterruptiblePowerSupply_Delete0" name="DeleteUPS0">
+    <lhs xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS0" name="LHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS_UninterruptiblePowerSupply0" incoming="Rule_UninterruptiblePowerSupply_Delete_LHS_applies0">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS_UninterruptiblePowerSupply0_Name" value="&quot;USV Eaton 5110&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS_UninterruptiblePowerSupply0_Out_Watt" value="600">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS_UninterruptiblePowerSupply0_Efficiency" value="95.0">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS_Room0" outgoing="Rule_UninterruptiblePowerSupply_Delete_LHS_applies0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Delete_LHS_applies0" source="Rule_UninterruptiblePowerSupply_Delete_LHS_Room0" target="Rule_UninterruptiblePowerSupply_Delete_LHS_UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_UninterruptiblePowerSupply_Delete_RHS0" name="RHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Delete_RHS_Room0">
+        <type href="PAM#//Room"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Delete_RHS_Room0_Name" value="&quot;Diagram&quot;">
+          <type href="PAM#//Room/Name"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="Rule_UninterruptiblePowerSupply_Delete_Mapping0" origin="Rule_UninterruptiblePowerSupply_Delete_LHS_Room0" image="Rule_UninterruptiblePowerSupply_Delete_RHS_Room0"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="Rule_UninterruptiblePowerSupply_Split0" name="UPSSplit0">
+    <lhs xmi:id="Rule_UninterruptiblePowerSupply_Split_LHS0" name="LHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Split_LHS_Room0" outgoing="Rule_UninterruptiblePowerSupply_Split_LHS_Room0_applies">
+        <type href="PAM#//Room"/>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Split_LHS_UninterruptiblePowerSupply0" incoming="Rule_UninterruptiblePowerSupply_Split_LHS_Room0_applies">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_LHS_UninterruptiblePowerSupply0_Name" value="&quot;USV Eaton 5110&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_LHS_UninterruptiblePowerSupply0_Out_Watt" value="600">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_LHS_UninterruptiblePowerSupply0_Efficiency" value="95.0">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Split_LHS_Room0_applies" source="Rule_UninterruptiblePowerSupply_Split_LHS_Room0" target="Rule_UninterruptiblePowerSupply_Split_LHS_UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS0" name="RHS">
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_Room0" outgoing="Rule_UninterruptiblePowerSupply_Split_RHS_Room0_applies1 Rule_UninterruptiblePowerSupply_Split_RHS_Room0_applies2">
+        <type href="PAM#//Room"/>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_1UninterruptiblePowerSupply0" incoming="Rule_UninterruptiblePowerSupply_Split_RHS_Room0_applies1">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_1UninterruptiblePowerSupply0_Name" value="&quot;Smart-UPS 1000VA&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_1UninterruptiblePowerSupply0_Out_Watt" value="700">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_1UninterruptiblePowerSupply0_Efficiency" value="98.2">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_2UninterruptiblePowerSupply0" incoming="Rule_UninterruptiblePowerSupply_Split_RHS_Room0_applies2">
+        <type href="PAM#//UninterruptiblePowerSupply"/>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_2UninterruptiblePowerSupply0_Name" value="&quot;Smart-UPS 1000VA&quot;">
+          <type href="PAM#//UninterruptiblePowerSupply/Name"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_2UninterruptiblePowerSupply0_Out_Watt" value="700">
+          <type href="PAM#//UninterruptiblePowerSupply/Out_Watt"/>
+        </attributes>
+        <attributes xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_2UninterruptiblePowerSupply0_Efficiency" value="98.2">
+          <type href="PAM#//UninterruptiblePowerSupply/Efficiency"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_Room0_applies1" source="Rule_UninterruptiblePowerSupply_Split_RHS_Room0" target="Rule_UninterruptiblePowerSupply_Split_RHS_1UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+      <edges xmi:id="Rule_UninterruptiblePowerSupply_Split_RHS_Room0_applies2" source="Rule_UninterruptiblePowerSupply_Split_RHS_Room0" target="Rule_UninterruptiblePowerSupply_Split_RHS_2UninterruptiblePowerSupply0">
+        <type href="PAM#//Room/applies"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="Rule_UninterruptiblePowerSupply_Split_Mapping_UninterruptiblePowerSupply0" origin="Rule_UninterruptiblePowerSupply_Split_LHS_Room0" image="Rule_UninterruptiblePowerSupply_Split_RHS_Room0"/>
+  </units>
+</henshin:Module>

@@ -32,11 +32,17 @@
 	<br>
 	<h2>Conference and Workshop Proceedings</h2>
 	<ul>
+	<b>2013</b>
+	<li>Thorsten Arendt, Gabriele Taentzer, Alexander Weber: 
+	<a href="downloads/ATW2013.pdf" target="_blank"><i>Quality Assurance of Textual Models within Eclipse using OCL and Model Transformations</i></a>.
+	Proceedings of <a href="http://ocl2013.inf.mit.bme.hu/" target="_blank">13th International Workshop on OCL, Model Constraint and Query Languages (OCL 2013)</a>
+	co-located with MoDELS 2013, September 30 2013 in Miami, USA..
+	</li>
 	<b>2012</b>
 	<li>Thorsten Arendt, Gabriele Taentzer: 
 	<a href="downloads/AT2012.pdf" target="_blank"><i>Integration of Smells and Refactorings within the Eclipse Modeling Framework</i></a>.
 	Proceedings of <a href="http://refactoring.info/WRT12/" target="_blank">Fifth Workshop on Refactoring Tools (WRT 2012)</a>
-	co-located with ICSE 2012, June 1 2012 in Rapperswil, Switzerland. To appear in ACM Digital Library 2012.
+	co-located with ICSE 2012, June 1 2012 in Rapperswil, Switzerland. Available also at ACM Digital Library.
 	</li>
 	<b>2011</b>
 	<li>Thorsten Arendt, Sieglinde Kranz, Florian Mantz, Nikolaus Regnat, Gabriele Taentzer: 

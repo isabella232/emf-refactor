@@ -13,6 +13,13 @@
 		<p>
 	<h2>Releases</h2>
 		
+<h3>Version 0.9.0</h3>
+<ul class="midlist">
+ 	<li><a href="downloads/refactor-0.9.0.20140416144044.jar">refactor-0.9.0.20140416144044.jar</a> (released April 16, 2014 14:40)</li>
+    <li><a href="downloads/refactor-extensions-0.9.0.20140416165932.jar">refactor-extensions-0.9.0.20140416165932.jar</a> (released April 16, 2014 16:59)</li>
+    <li><a href="downloads/refactor-examples-0.9.0.20140416170258.jar">refactor-examples-0.9.0.20140416170258.jar</a> (released April 16, 2014 17:02)</li>
+</ul>
+
 <h3>Version 0.8.0</h3>
 <ul class="midlist">
  	<li><a href="downloads/refactor-0.8.0.20130926170658.jar">refactor-0.8.0.20130926170658.jar</a> (released Sep 27, 2013 10:46)</li>

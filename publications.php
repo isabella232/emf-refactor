@@ -18,7 +18,7 @@
 	<ul>
 	<b>2013</b>
 	<li>Thorsten Arendt, Gabriele Taentzer: 
-	<a href="http://link.springer.com/article/10.1007%2Fs10515-012-0114-7" target="_blank"><i>A tool environment for quality assurance based on the Eclipse Modeling Framework</i></a>.
+	<a href="downloads/AT2013.pdf" target="_blank"><i>A tool environment for quality assurance based on the Eclipse Modeling Framework</i></a>.
 	Article in Journal <a href="http://link.springer.com/journal/10515" target="_blank">Automated Software Engineering</a>, Volume 20, Issue 2 (2013), Page 141-184,
 	DOI:10.1007/s10515-012-0114-7, Springer, New York.
 	</li>

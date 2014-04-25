@@ -15,18 +15,18 @@
 	EMF Refactor actually supports the following model quality assurance techniques for Ecore and UML2 models:
 		
 	<h3>Quality assurance techniques for Ecore models</h3>
-	<ol class="midlist">
+	<ul class="midlist">
     	<li>23 metrics</li>
     	<li>3 model smells</li>
     	<li>22 model refactorings</li>
-	</ol>
+	</ul>
 	
 	<h3>Quality assurance techniques for UML2 models</h3>
-	<ol class="midlist">
+	<ul class="midlist">
     	<li>107 metrics</li>
     	<li>27 model smells</li>
     	<li>27 model refactorings</li>
-	</ol>
+	</ul>
 	
 	</p>
 	<p>

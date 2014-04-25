@@ -38,14 +38,33 @@
 		<p>
 		<i>How to install EMF Refactor:</i>
 		</p>
-		Please use our update site below and install EMF Refactor using the update manager in Eclipse.
+		For a complete installation of EMF Refactor please follow this installation guide:
 		
-		<h3>Installation using the update site</h3>
+		<p>
+		<h2>Installation Guide</h2>
+		<ol class="midlist">
+	 		<li>Please download the <b><i>Eclipse Modeling Tools</i></b> from <a href="http://www.eclipse.org/downloads/" target="_blank">
+			http://www.eclipse.org/downloads/</a></li>. Unzip and start Eclipse and update the system (<i>Help > Check for Updates</i>).</li>
+	    	<li>Restart Eclipse and install the UML modeling environment <b><i>Papyrus</i></b> (<i>Help > Install New Software... > Work with: Kepler > Modeling
+			> Papyrus SDK Binaries > next > ...</i>).</li>
+			<li>Restart Eclipse and install the reporting tool <b><i>BIRT</i></b> 
+			(<i>Help > Install New Software... > Work with: Kepler > Business... > BIRT Framework > next > ...</i>).</li>
+			<li>Restart Eclipse and install the EMF model transformation language <b><i>Henshin</i></b> (<i>Help > Install New Software... > 
+			Work with: <a href="http://download.eclipse.org/modeling/emft/henshin/updates/release" target="_blank">http://download.eclipse.org/modeling/emft/henshin/updates/release</a> > next > ...</i>).</li>
+			<li>Restart Eclipse and install the EMF model quality assurance tool set <b><i>EMF Refactor</i></b> (<i>Help > Install New Software... > 
+			Work with: <a href="http://download.eclipse.org/emf-refactor/updatesite" target="_blank">http://download.eclipse.org/emf-refactor/updatesite</a> > Select all > next > ...</i>).</li>
+		</ol>
+		
+		
+		
+		
+		
+		<!-- h3>Installation using the update site</h3>
 		This project maintains a p2 repository of binary artifacts. Copy and paste the following link into 
 		the "Install New Software" dialog to install this project's software.
 		<ul class="midlist">
 		 	<li><a href="http://download.eclipse.org/emf-refactor/updatesite" target="_blank">http://download.eclipse.org/emf-refactor/updatesite</a></li>
-		</ul>
+		</ul -->
 
 		<!-- h3>Installation using the download site</h3>
 		<ol>

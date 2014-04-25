@@ -43,11 +43,23 @@
 	a widely used open source technology in model-based software development. 
 	</p>
 	<p>
+	The following major functionalities are provided:
+	<ul>
+		<li>User-friendly support for project-specific configurations of model metrics, smells, and refactorings.
+		<li>Calculation of model metrics, detection of model smells, and application of model refactorings.
+		<li>Generation of model metrics and smell detection reports.
+		<li>Suggestion of suitable refactorings in case of specific smell occurrences.
+		<li>Provision of suitable information in cases where new model smells come in by applying a certain refactoring.
+		<li>Support for the implementation of new model metrics, smells, and refactorings.
+	</ul>
+	</p>
+	<p>	
 	The tool environment mainly consists of two kinds of modules: 
 	For calculating model metrics, detecting smells, and executing refactorings there is an <b>application module</b> each. 
 	Similarly there are three <b>specification modules</b> for generating metrics, smell, and refactoring plugins containing Java code that can be used by the corresponding application module.
+	Details on the design of EMF Refactor can be found here: <a href="https://wiki.eclipse.org/EMF_Refactor_Architecture" target="_blank">EMF Refactor Architecture</a>. 
 	</p>
-	<p>
+	<!-- p>
 	
 	<h2>Refactoring tool</h2>
 	The refactoring tool consists of 
@@ -93,7 +105,7 @@
 	</ul>
 	Actually, we are working on a combination mechanism of existing refactorings to more complex ones by using a dedicated domain-specific language called
 	CoMReL (Composite Model Refactoring Language) that will be integrated soon into the official release of EMF Refactor.
-	</p>
+	</p -->
 
 	<!--
 		

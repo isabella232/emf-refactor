@@ -1,6 +1,6 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
-	$pageTitle 		= "Supported Refactorings";
+	$pageTitle 		= "Supported Techniques";
 	$pageKeywords	= "EMF, Refactor, model refactoring, refactoring";
 	$pageAuthor		= "Thorsten Arendt";
 	
@@ -12,65 +12,26 @@
 		<h1>$pageTitle</h1>
 		<p>
 		
-	<h3>Ecore Refactorings</h3>
+	EMF Refactor actually supports the following model quality assurance techniques for Ecore and UML2 models:
+		
+	<h3>Quality assurance techniques for Ecore models</h3>
 	<ol class="midlist">
-    	<li>Add EParameter</li>
-    	<li>Create Referenced EClass</li>
-    	<li>Create Sub EClass</li>
-    	<li>Create Super EClass</li>    	
-    	<li>Move EAttribute</li>
-    	<li>Move EOperation</li>
-    	<li>Pull Up EAttribute</li>
-    	<li>Pull Up EOperation</li>
-    	<li>Push Down EAttribute</li>
-    	<li>Push Down EOperation</li>
-    	<li>Remove EParameter</li>
-    	<li>Remove Empty Referenced EClass</li>
-    	<li>Remove Empty Sub EClass</li>
-    	<li>Remove Empty Super EClass</li>
-    	<li>Rename EAttribute</li>
-    	<li>Rename EClass</li>
-    	<li>Rename EDataType</li>
-    	<li>Rename EEnumLiteral</li>
-    	<li>Rename EOperation</li>
-    	<li>Rename EPackage</li>
-    	<li>Rename EParameter</li>
-    	<li>Rename EReference</li>
+    	<li>23 metrics</li>
+    	<li>3 model smells</li>
+    	<li>22 model refactorings</li>
 	</ol>
 	
-	<h3>UML2EMF Refactorings</h3>
+	<h3>Quality assurance techniques for UML2 models</h3>
 	<ol class="midlist">
-    	<li>Add Parameter</li>
-    	<li>Create Class with Attributes from Parameter list</li>
-    	<li>Create Associated Class</li>
-    	<li>Create Subclass</li>
-    	<li>Create Superclass</li> 
-    	<li>Extract Class</li>
-    	<li>Extract Subclass</li>  
-    	<li>Extract Superclass</li> 
-    	<li>Inline Class</li>
-    	<li>Introduce Parameter Object</li>
-    	<li>Hide Attribute</li>	
-    	<li>Move Attribute</li>
-    	<li>Move Operation</li>
-    	<li>Pull Up Attribute</li>
-    	<li>Pull Up Operation</li>
-    	<li>Push Down Attribute</li>
-    	<li>Push Down Operation</li>
-    	<li>Remove Parameter</li>
-    	<li>Remove Empty Associated Class</li>
-    	<li>Remove Empty Subclass</li>
-    	<li>Remove Empty Superclass</li>
-    	<li>Remove Isolated State</li>
-    	<li>Remove Superclass</li>
-    	<li>Rename Actor</li>
-    	<li>Rename Attribute</li>
-    	<li>Rename Class</li>
-    	<li>Rename Operation</li>
-    	<li>Rename State</li>
-    	<li>Rename Use Case</li>
-    	<li>Show Attribute</li>
+    	<li>107 metrics</li>
+    	<li>27 model smells</li>
+    	<li>27 model refactorings</li>
 	</ol>
+	
+	</p>
+	<p>
+	Lists of provided techniques can be found here: <a href="https://wiki.eclipse.org/Techniques" target="_blank">Techniques</a>.
+	</p>
 	
 	</div>
 	

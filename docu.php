@@ -11,8 +11,17 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>		
 		<p>
-		<h2>How to's: Application</h2>
-		<ul class="midlist">
+		<h2>Tutorial</h2>
+		<p>
+		A detailed tutorial on the functionality of EMF Refactor for both
+		the application and specification of metrics, smells, and refactorings
+		can be found in the  
+		<a href="https://wiki.eclipse.org/Refactor" target="_blank">EMF Refactor Wiki</a>.
+		</p>
+		
+		
+		
+		<!-- ul class="midlist">
 			<li><a href="metricscalculation.php">How to calculate EMF model metrics</a></li>
 			<li><a href="smelldetection.php">How to detect EMF model smells</a></li>
 			<li><a href="refactoringapplication.php">How to apply EMF model refactorings</a></li>
@@ -33,7 +42,10 @@
 			<li><a href="refactoringshenshin.php">How to generate new EMF model refactorings using Henshin transformations</a></li>
 		</ul>
 		(PDF versions can be found in the <a href="downloads.php">downloads</a> section. Videos are coming soon...) 
-		</p>
+		</p -->
+		
+		
+		
 		<p>
 		<h2>Talk at <a href="http://www.eclipsecon.org/europe2012/" target="_blank">EclipseCon Europe 2012</a></h2>
 		<ul class="midlist">
